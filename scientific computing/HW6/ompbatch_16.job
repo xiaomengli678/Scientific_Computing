@@ -1,0 +1,33 @@
+#!/bin/bash                                                                                       
+#SBATCH -A TG-DMS170023     # account name (project charge number)                                
+#SBATCH -J mmul_omp_t8      # job name                                                            
+#SBATCH -o mmul16_out.%j     # output file                                                         
+#SBATCH -e mmul16_err.%j     # error file                                                          
+#SBATCH -N 1                # total nodes requested                                               
+#SBATCH -n 1                # total MPI tasks requested                                           
+#SBATCH -p development      # queue name (use development for requested time < 2hrs)              
+#SBATCH -t 00:05:00         # total wall clock time requested <hh:mm:ss>                          
+
+export OMP_NUM_THREADS=16    # total number of OpenMP threads requested (1 per KNL core)           
+
+FFLAG=$(grep "^\s*FFLAG" Makefile)
+ifort="$(echo ${FFLAG}|grep openmp|grep -v fopenmp)"
+if [ "${ifort}" = "" ];then
+ openmp=$(echo ${FFLAG}|grep 'fopenmp')
+ if [ "${openmp}" = "" ];then
+  build="serial-gcc"
+ else
+  build="parallel-gcc"
+ fi
+else
+ build="parallel-ifort"
+fi
+time=$(date +%s)
+dirname=ran-$(hostname)-${build}-${time}
+./homework6 > ${dirname}.txt
+mkdir ${dirname}
+mv *.txt ${dirname}
+if [ "$(which lscpu)" != "" ];then
+ lscpu > $(hostname).cpuinfo
+fi
+

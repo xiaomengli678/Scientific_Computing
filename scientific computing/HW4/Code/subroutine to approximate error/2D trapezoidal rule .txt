@@ -1,0 +1,25 @@
+   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!trapezoidal rule!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!trapezoidal rule
+  !!!!!!! There are three parts: four corners, four boundary lines and the rest in the center area
+  u = u * J1
+  u = u*u
+  u = sqrt(u)
+  !!!!!!! Ones on the four corners (1/4)
+  sum1 = sum1 +  hr * hs /4.d0 * (u(0,0) + u(0,ns) + u(nr,0) + u(nr,ns))
+  
+  !!!!!!! Ones on the four boundary lines (1/2)
+  do j = 1,(ns-1)
+     sum1 = sum1 + hr * hs/2.d0 * (u(0,j) + u(nr,j))
+  end do
+  
+  do i = 1,(nr-1)
+     sum1 = sum1 + hr * hs/2.d0 * (u(j,0) + u(j,ns))
+  end do
+  
+  !!!!!!! Ones in the center area (1)
+   do j = 1,(ns-1)
+      do i = 1,(nr-1)
+         sum1 = sum1 + hr * hs * u(i,j)
+      end do
+   end do
+  
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!trapezoidal rule!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!trapezoidal rule

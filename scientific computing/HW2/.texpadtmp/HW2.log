@@ -1,0 +1,1102 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 SEP 2017 16:24
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**HW2.tex
+(./HW2.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (/Users/mac/Desktop/Math 471/math471li/HW2/.texpadtmp/HW2.aux)
+\openout1 = `HW2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen115
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks28
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./tmp2.tex
+./tmp2.tex:1: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1   x  & 01  &
+                 0.0000000000000000E+00  & 0.5000000000000000E+00  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:1: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.1 ...0000000000E+00  & 0.5000000000000000E+00  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:2: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.2 ...0000000000E+01  & 0.1000000000000000E+01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:3: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.3 \  x  & 02  &
+                  0.0000000000000000E+00  & -0.0000000000000000E+00  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:3: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.3 ...000000000E+00  & -0.0000000000000000E+00  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:4: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.4 ...0000000000E+00  & 0.5000000000000000E+00  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:5: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.5 \  x*x  & 01  &
+                    -0.2500000000000000E+00  & 0.2500000000000000E+00  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:5: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.5 ...0000000000E+00  & 0.2500000000000000E+00  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:6: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.6 ...0000000000E+01  & 0.1000000000000000E+01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:7: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.7 \  x*x  & 02  &
+                    -0.1250000000000000E+00  & 0.1250000000000000E+00  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:7: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.7 ...0000000000E+00  & 0.1250000000000000E+00  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:8: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.8 ...0000000000E+00  & 0.2500000000000000E+00  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:9: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.9 \  x*x  & 03  &
+                    -0.6250000000000000E-01  & 0.6250000000000000E-01  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:9: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.9 ...0000000000E-01  & 0.6250000000000000E-01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:10: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.10 ...000000000E+00  & 0.2000000000000000E+01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:11: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.11 \  x*x  & 04  &
+                     -0.3125000000000000E-01  & 0.3125000000000000E-01  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:11: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.11 ...000000000E-01  & 0.3125000000000000E-01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:12: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.12 ...000000000E+00  & 0.4000000000000000E+01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:13: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 \  x*x  & 05  &
+                     -0.1562500000000000E-01  & 0.1562500000000000E-01  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:13: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.13 ...000000000E-01  & 0.1562500000000000E-01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:14: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.14 ...000000000E+00  & 0.8000000000000000E+01  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:15: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.15 \  x*x  & 06  &
+                     -0.7812500000000000E-02  & 0.7812500000000000E-02  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:15: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.15 ...000000000E-02  & 0.7812500000000000E-02  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:16: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.16 ...000000000E+00  & 0.1600000000000000E+02  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:17: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.17 \  x*x  & 07  &
+                     -0.3906250000000000E-02  & 0.3906250000000000E-02  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:17: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.17 ...000000000E-02  & 0.3906250000000000E-02  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:18: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.18 ...000000000E+00  & 0.3200000000000000E+02  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:19: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.19 \  x*x  & 08  &
+                     -0.1953125000000000E-02  & 0.1953125000000000E-02  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:19: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.19 ...000000000E-02  & 0.1953125000000000E-02  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:20: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.20 ...000000000E+00  & 0.6400000000000000E+02  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:21: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.21 \  x*x  & 09  &
+                     -0.9765625000000000E-03  & 0.9765625000000000E-03  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:21: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.21 ...000000000E-03  & 0.9765625000000000E-03  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:22: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.22 ...000000000E+00  & 0.1280000000000000E+03  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:23: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.23 \  x*x  & 10  &
+                     -0.4882812500000000E-03  & 0.4882812500000000E-03  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:23: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.23 ...500000000E-03  & 0.4882812500000000E-03  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:24: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.24 ...000000000E+00  & 0.2560000000000000E+03  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:25: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.25 \  x*x  & 11  &
+                     -0.2441406250000000E-03  & 0.2441406250000000E-03  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:25: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.25 ...250000000E-03  & 0.2441406250000000E-03  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:26: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.26 ...000000000E+00  & 0.5120000000000000E+03  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:27: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.27 \  x*x  & 12  &
+                     -0.1220703125000000E-03  & 0.1220703125000000E-03  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:27: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.27 ...125000000E-03  & 0.1220703125000000E-03  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:28: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.28 ...000000000E+00  & 0.1024000000000000E+04  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:29: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.29 \  x*x  & 13  &
+                     -0.6103515625000000E-04  & 0.6103515625000000E-04  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:29: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.29 ...625000000E-04  & 0.6103515625000000E-04  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:30: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.30 ...000000000E+00  & 0.2048000000000000E+04  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:31: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.31 \  x*x  & 14  &
+                     -0.3051757812500000E-04  & 0.3051757812500000E-04  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:31: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.31 ...812500000E-04  & 0.3051757812500000E-04  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:32: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.32 ...000000000E+00  & 0.4096000000000000E+04  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:33: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.33 \  x*x  & 15  &
+                     -0.1525878906250000E-04  & 0.1525878906250000E-04  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:33: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.33 ...906250000E-04  & 0.1525878906250000E-04  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:34: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.34 ...000000000E+00  & 0.8192000000000000E+04  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:35: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.35 \  x*x  & 16  &
+                     -0.7629394531250000E-05  & 0.7629394531250000E-05  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:35: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.35 ...531250000E-05  & 0.7629394531250000E-05  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:36: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.36 ...000000000E+00  & 0.1638400000000000E+05  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:37: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.37 \  x*x  & 17  &
+                     -0.3814697265625000E-05  & 0.3814697265625000E-05  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:37: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.37 ...265625000E-05  & 0.3814697265625000E-05  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:38: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.38 ...000000000E+00  & 0.3276800000000000E+05  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:39: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.39 \  x*x  & 18  &
+                     -0.1907348632812500E-05  & 0.1907348632812500E-05  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:39: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.39 ...632812500E-05  & 0.1907348632812500E-05  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:40: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.40 ...000000000E+00  & 0.6553600000000000E+05  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:41: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.41 \  x*x  & 19  &
+                     -0.9536743164062500E-06  & 0.9536743164062500E-06  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:41: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.41 ...164062500E-06  & 0.9536743164062500E-06  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:42: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.42 ...000000000E+00  & 0.1310720000000000E+06  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:43: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.43 \  x*x  & 20  &
+                     -0.4768371582031250E-06  & 0.4768371582031250E-06  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:43: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.43 ...582031250E-06  & 0.4768371582031250E-06  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:44: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.44 ...000000000E+00  & 0.2621440000000000E+06  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:45: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.45 \  x*x  & 21  &
+                     -0.2384185791015625E-06  & 0.2384185791015625E-06  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:45: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.45 ...791015625E-06  & 0.2384185791015625E-06  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:46: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.46 ...000000000E+00  & 0.5242880000000000E+06  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:47: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.47 \  x*x  & 22  &
+                     -0.1192092895507812E-06  & 0.1192092895507812E-06  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:47: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.47 ...895507812E-06  & 0.1192092895507812E-06  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:48: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.48 ...000000000E+00  & 0.1048576000000000E+07  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:49: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.49 \  x*x  & 23  &
+                     -0.5960464477539062E-07  & 0.5960464477539062E-07  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:49: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.49 ...477539062E-07  & 0.5960464477539062E-07  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:50: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.50 ...000000000E+00  & 0.2097152000000000E+07  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:51: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.51 \  x*x  & 24  &
+                     -0.2980232238769531E-07  & 0.2980232238769531E-07  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:51: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.51 ...238769531E-07  & 0.2980232238769531E-07  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:52: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.52 ...000000000E+00  & 0.4194304000000000E+07  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:53: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.53 \  x*x  & 25  &
+                     -0.1490116119384766E-07  & 0.1490116119384766E-07  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:53: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.53 ...119384766E-07  & 0.1490116119384766E-07  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:54: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.54 ...000000000E+00  & 0.8388608000000000E+07  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:55: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.55 \  x*x  & 26  &
+                     -0.7450580596923828E-08  & 0.7450580596923828E-08  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:55: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.55 ...596923828E-08  & 0.7450580596923828E-08  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:56: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.56 ...000000000E+00  & 0.1677721600000000E+08  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 \  x*x  & 27  &
+                     -0.3725290298461914E-08  & 0.3725290298461914E-08  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 ...298461914E-08  & 0.3725290298461914E-08  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:58: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.58 ...000000000E+00  & 0.3355443200000000E+08  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:59: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.59 \  x*x  & 28  &
+                     -0.1862645149230957E-08  & 0.1862645149230957E-08  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:59: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.59 ...149230957E-08  & 0.1862645149230957E-08  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:60: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.60 ...000000000E+00  & 0.6710886400000000E+08  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:61: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.61 \  x*x  & 29  &
+                     -0.9313225746154785E-09  & 0.9313225746154785E-09  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:61: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.61 ...746154785E-09  & 0.9313225746154785E-09  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:62: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.62 ...000000000E+00  & 0.1342177280000000E+09  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:63: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.63 \  x*x  & 30  &
+                     -0.4656612873077393E-09  & 0.4656612873077393E-09  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:63: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.63 ...873077393E-09  & 0.4656612873077393E-09  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:64: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.64 ...000000000E+00  & 0.2684354560000000E+09  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:65: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.65 \  x*x  & 31  &
+                     -0.2328306436538696E-09  & 0.2328306436538696E-09  &
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:65: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.65 ...436538696E-09  & 0.2328306436538696E-09  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:66: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.66 ...000000000E+00  & 0.5368709120000000E+09  &
+                                                  
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+./tmp2.tex:67: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.67 \  x*x  & 32  &
+                     -0.1164153218269348E-09  & 0.1164153218269348E-09  &
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 2460 strings out of 492995
+ 32774 string characters out of 6132704
+ 108377 words of memory out of 5000000
+ 5984 multiletter control sequences out of 15000+600000
+ 12397 words of font info for 48 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,7n,26p,252b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+./tmp2.tex:67:  ==> Fatal error occurred, no output PDF file produced!

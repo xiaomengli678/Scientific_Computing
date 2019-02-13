@@ -1,0 +1,206 @@
+program Project
+  implicit none
+  integer :: ierr, nprocs, myid, s=0, NX_v(0:0)=(/20/)
+!  integer :: ierr, nprocs, myid, s=4, NX_v(0:4)=(/20, 40, 80, 160, 320/)
+  real(kind=8) :: mpi_t0, mpi_t1, mpi_dt
+
+  ! %an increasing sequence of the number of grid points
+  call err_calc(s,NX_v)
+
+  !figure
+  !surf(x,y,u2); shading interp
+
+  !figure
+  !loglog(H,E,'o-',H,H.^2,'r')
+  !legend('\epsilon(h)','h^2')
+  !xlabel('h')
+end program Project
+subroutine err_calc(s,NX_v)
+  use printble
+  use mpi
+  implicit none
+  integer, intent(in) :: s, NX_v(0:s)
+  real(kind = 8) :: E(0:s), H(0:s)
+  integer :: nx, ny, kk
+
+  !!! loop through NX
+  do kk=0,s
+    nx=NX_v(kk)
+    ny=nx
+    call wave2d(E,H,s,kk,nx,ny)
+  end do
+  call printdble1d(H,s,"H.txt")
+  call printdble1d(E,s,"E.txt")
+
+end subroutine err_calc
+subroutine wave2d(E,H,s,kk,nx,ny)
+  use printble
+  use wave2dh
+  use mpi
+  implicit none
+  integer, intent(in) :: nx,ny,s,kk
+  real(kind=8), intent(out) :: E(0:s),H(0:s)
+  real(kind=8) :: x(0:nx), y(0:ny)
+  real(kind=8) :: t, t_final, dt, w=10, kx=6, ky=4, t_real, hx, hy
+  ! to get the results from each function
+  real(kind=8) :: tmp(1)
+  real(kind=8) :: utx(0:nx,0:ny)
+  real(kind=8) :: uty(0:nx,0:ny)
+  real(kind=8) :: u0(0:nx,0:ny)
+  real(kind=8) :: u1(0:nx,0:ny)
+  real(kind=8) :: u2(0:nx,0:ny)
+  real(kind=8) :: u_ex_final(0:nx,0:ny)
+  real(kind=8) :: f2(0:nx,0:ny), L(0:nx,0:ny), f(0:nx,0:ny), tmptbl(0:nx,0:ny)
+  integer :: i,j,k,nt
+
+
+  !%equal number of grid points in x and y directions
+  hx=2d0/(nx)
+  !%grid length in x direction
+  hy=2d0/(ny)
+!  print *, hx, hy
+  H(kk)=hx
+  
+  ! should be equal to x=(-1:hx:1);
+  do i=0,nx
+    x(i)=-1d0+i*hx
+  end do
+  ! should be equal to y=(-1:hy:1)';
+  do i=0,ny
+    y(i)=-1d0+i*hy
+  end do
+
+  call printdble1d(x,nx,naming("x_serial_",kk))
+
+  t_final=1
+  dt=0.5d0*hx
+  nt=floor(t_final/dt)+1
+  dt=t_final/nt
+
+  !%Set up initial data and obtain u0 and u1
+
+  do i=0,ny
+    do j=0,nx
+      call u_exact(tmp,0d0,x(i),y(j),w,kx,ky)
+      ! j,i so I get the transpose
+      utx(j,i)=x(i)
+      uty(j,i)=y(j)
+      u0(j,i)=tmp(1)
+    end do
+  end do
+
+  call printdble2d(u0,nx,ny,naming("u0_serial_",kk))
+  call printdble2d(utx,nx,ny,naming("utx_serial_",kk))
+  call printdble2d(uty,nx,ny,naming("uty_serial_",kk))
+
+  do j=0,ny
+    do i=0,nx
+      call f2_fun(tmp,x(i),y(j),w,kx,ky)
+      f2(j,i)=tmp(1)
+    end do
+  end do
+
+  do j=0,nx
+    do i=0,ny
+      call forcing(tmp,0d0,x(i),y(j),w,kx,ky)
+      f(j,i)=tmp(1)
+    end do
+  end do
+
+  call laplac(L,u0,hx,hy,nx,ny)
+
+  do i=0,nx
+    do j=0,ny
+      u1(i,j)=u0(i,j)+dt*f2(i,j)+0.5d0*(dt**2d0)*(L(i,j)+f(i,j))
+    end do
+  end do
+
+  ! %update BC
+  !
+  ! I need to create column and row functions to get what I need here
+  !
+
+  ! converted u1(1,:)=u_exact(dt,x,-1,w,kx,ky);
+  do i=0,ny
+    call u_exact(tmp,dt,x(i),-1d0,w,kx,ky)
+    u1(0,i)=tmp(1)
+  end do
+  ! converted u1(ny,:)=u_exact(dt,x,1,w,kx,ky);
+  do i=0,ny
+    call u_exact(tmp,dt,x(i),1d0,w,kx,ky)
+    u1(nx,i)=tmp(1)
+  end do
+  ! converted u1(:,1)=u_exact(dt,-1,y,w,kx,ky);
+  do i=0,nx
+    call u_exact(tmp,dt,-1d0,y(i),w,kx,ky)
+    u1(i,0)=tmp(1)
+  end do
+  ! converted u1(:,nx)=u_exact(dt,1,y,w,kx,ky);
+  do i=0,nx
+    call u_exact(tmp,dt,1d0,y(i),w,kx,ky)
+    u1(i,ny)=tmp(1)
+  end do
+
+  call printdble2d(u1,nx,ny,naming("post_",kk))
+
+
+
+  do k=0,(nt-2)
+    t=(k+1)*dt;
+    ! %obtin right hand side
+
+    do j=0,nx
+      do i=0,ny
+        call forcing(tmp,t,x(i),y(j),w,kx,ky)
+        f(j,i)=tmp(1)
+      end do
+    end do
+
+    call laplac(L,u1,hx,hy,nx,ny)
+    ! %March in time
+    do i=0,nx
+      do j=0,ny
+        u2(i,j)=2*u1(i,j)-u0(i,j)+(dt**2)*(L(i,j)+f(i,j))
+      end do
+    end do
+    ! %update BC
+    ! converted u2(1,:)=u_exact(t+dt,x,-1,w,kx,ky);
+    do i=0,ny
+      call u_exact(tmp,t+dt,x(i),-1d0,w,kx,ky)
+      u2(0,i)=tmp(1)
+    end do
+    ! converted u2(ny,:)=u_exact(t+dt,x,1,w,kx,ky);
+    do i=0,ny
+      call u_exact(tmp,t+dt,x(i),1d0,w,kx,ky)
+      u2(nx,i)=tmp(1)
+    end do
+    ! converted u2(:,1)=u_exact(t+dt,-1,y,w,kx,ky);
+    do i=0,nx
+      call u_exact(tmp,t+dt,-1d0,y(i),w,kx,ky)
+      u2(i,0)=tmp(1)
+    end do
+    ! converted u2(:,nx)=u_exact(t+dt,1,y,w,kx,ky);
+    do i=0,nx
+      call u_exact(tmp,t+dt,1d0,y(i),w,kx,ky)
+      u2(i,ny)=tmp(1)
+    end do
+    ! %switch solution at different time levels
+    do i=0,nx
+      do j=0,ny
+        u0(i,j)=u1(i,j)
+        u1(i,j)=u2(i,j)    
+      end do
+    end do
+  end do
+  !%compute the error
+  do i=0,ny
+    do j=0,nx
+      call u_exact(tmp,t_final,x(i),y(j),w,kx,ky)
+      ! j,i so I get the transpose
+      u_ex_final(j,i)=tmp(1)
+    end do
+  end do
+  call printdble2d(u2,nx,ny,naming("U2_",kk))
+  call printdble2d(u_ex_final,nx,ny,naming("UE_",kk))
+  E(kk)=maxval(abs(u2(0:nx,0:ny)-u_ex_final(0:nx,0:ny)))
+end subroutine wave2d

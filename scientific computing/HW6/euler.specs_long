@@ -1,0 +1,2821 @@
+euler
+    description: Computer
+    product: SYS-7048GR-TR (Default string)
+    vendor: Supermicro
+    version: 0123456789
+    serial: S16953527301705
+    width: 64 bits
+    capabilities: smbios-3.0 dmi-3.0 vsyscall32
+    configuration: boot=normal family=Default string sku=Default string uuid=00000000-0000-0000-0000-0CC47AE496C6
+  *-core
+       description: Motherboard
+       product: X10DRG-Q
+       vendor: Supermicro
+       physical id: 0
+       version: 1.10
+       serial: VM16CS012764
+       slot: Default string
+     *-firmware
+          description: BIOS
+          vendor: American Megatrends Inc.
+          physical id: 0
+          version: 2.0a
+          date: 08/29/2016
+          size: 64KiB
+          capacity: 15MiB
+          capabilities: pci upgrade shadowing cdboot bootselect socketedrom edd int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer acpi usb biosbootspecification uefi
+     *-memory:0
+          description: System Memory
+          physical id: 2b
+          slot: System board or motherboard
+        *-bank:0
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 0
+             serial: 41C626B4
+             slot: P1-DIMMA1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:1
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 1
+             serial: 41C62678
+             slot: P1-DIMMA2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:2
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 2
+             serial: 41C6276C
+             slot: P1-DIMMB1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:3
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 3
+             serial: 41C62754
+             slot: P1-DIMMB2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+     *-memory:1
+          description: System Memory
+          physical id: 30
+          slot: System board or motherboard
+        *-bank:0
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 0
+             serial: 41C626E0
+             slot: P1-DIMMC1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:1
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 1
+             serial: 41C62661
+             slot: P1-DIMMC2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:2
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 2
+             serial: 41C6276A
+             slot: P1-DIMMD1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:3
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 3
+             serial: 41C626FC
+             slot: P1-DIMMD2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+     *-memory:2
+          description: System Memory
+          physical id: 35
+          slot: System board or motherboard
+        *-bank:0
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 0
+             serial: 41C62722
+             slot: P2-DIMME1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:1
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 1
+             serial: 41C626F0
+             slot: P2-DIMME2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:2
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 2
+             serial: 41C626EF
+             slot: P2-DIMMF1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:3
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 3
+             serial: 41C6268C
+             slot: P2-DIMMF2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+     *-memory:3
+          description: System Memory
+          physical id: 3a
+          slot: System board or motherboard
+        *-bank:0
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 0
+             serial: 41C626DF
+             slot: P2-DIMMG1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:1
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 1
+             serial: 41C6275A
+             slot: P2-DIMMG2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:2
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 2
+             serial: 41C626C8
+             slot: P2-DIMMH1
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:3
+             description: DIMM Synchronous 2400 MHz (0.4 ns)
+             product: HMAA8GL7MMR4N-UH
+             vendor: Hynix Semiconductor
+             physical id: 3
+             serial: 41C626B1
+             slot: P2-DIMMH2
+             size: 31GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+     *-cache:0
+          description: L1 cache
+          physical id: 54
+          slot: CPU Internal L1
+          size: 1408KiB
+          capacity: 1408KiB
+          capabilities: internal write-back
+          configuration: level=1
+     *-cache:1
+          description: L2 cache
+          physical id: 55
+          slot: CPU Internal L2
+          size: 5632KiB
+          capacity: 5632KiB
+          capabilities: internal write-back unified
+          configuration: level=2
+     *-cache:2
+          description: L3 cache
+          physical id: 56
+          slot: CPU Internal L3
+          size: 55MiB
+          capacity: 55MiB
+          capabilities: internal write-back unified
+          configuration: level=3
+     *-cpu:0
+          description: CPU
+          product: Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz
+          vendor: Intel Corp.
+          physical id: 57
+          bus info: cpu@0
+          version: Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz
+          slot: CPU1
+          size: 2799MHz
+          capacity: 4GHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm rdseed adx smap xsaveopt cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts cpufreq
+          configuration: cores=22 enabledcores=22 threads=44
+     *-cache:3
+          description: L1 cache
+          physical id: 58
+          slot: CPU Internal L1
+          size: 1408KiB
+          capacity: 1408KiB
+          capabilities: internal write-back
+          configuration: level=1
+     *-cache:4
+          description: L2 cache
+          physical id: 59
+          slot: CPU Internal L2
+          size: 5632KiB
+          capacity: 5632KiB
+          capabilities: internal write-back unified
+          configuration: level=2
+     *-cache:5
+          description: L3 cache
+          physical id: 5a
+          slot: CPU Internal L3
+          size: 55MiB
+          capacity: 55MiB
+          capabilities: internal write-back unified
+          configuration: level=3
+     *-cpu:1
+          description: CPU
+          product: Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz
+          vendor: Intel Corp.
+          physical id: 5b
+          bus info: cpu@1
+          version: Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz
+          slot: CPU2
+          size: 2199MHz
+          capacity: 4GHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: x86-64 fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch epb intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm rdseed adx smap xsaveopt cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts cpufreq
+          configuration: cores=22 enabledcores=22 threads=44
+     *-memory:4 UNCLAIMED
+          physical id: 1
+     *-memory:5 UNCLAIMED
+          physical id: 6
+     *-pci:0
+          description: Host bridge
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+        *-pci:0
+             description: PCI bridge
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 1
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci msi pciexpress pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:25
+        *-pci:1
+             description: PCI bridge
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci msi pciexpress pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:27 ioport:6000(size=4096) memory:ef000000-f00fffff ioport:383fe0000000(size=301989888)
+           *-display
+                description: VGA compatible controller
+                product: NVIDIA Corporation
+                vendor: NVIDIA Corporation
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+                configuration: driver=nvidia latency=0
+                resources: iomemory:383f0-383ef iomemory:383f0-383ef irq:61 memory:ef000000-efffffff memory:383fe0000000-383fefffffff memory:383ff0000000-383ff1ffffff ioport:6000(size=128) memory:f0000000-f007ffff
+           *-multimedia
+                description: Audio device
+                product: NVIDIA Corporation
+                vendor: NVIDIA Corporation
+                physical id: 0.1
+                bus info: pci@0000:02:00.1
+                version: a1
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:85 memory:f0080000-f0083fff
+        *-pci:2
+             description: PCI bridge
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+             vendor: Intel Corporation
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci msi pciexpress pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:29 ioport:5000(size=4096) memory:ed000000-ee0fffff ioport:383fc0000000(size=301989888)
+           *-display
+                description: VGA compatible controller
+                product: NVIDIA Corporation
+                vendor: NVIDIA Corporation
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+                configuration: driver=nvidia latency=0
+                resources: iomemory:383f0-383ef iomemory:383f0-383ef irq:89 memory:ed000000-edffffff memory:383fc0000000-383fcfffffff memory:383fd0000000-383fd1ffffff ioport:5000(size=128) memory:ee000000-ee07ffff
+           *-multimedia
+                description: Audio device
+                product: NVIDIA Corporation
+                vendor: NVIDIA Corporation
+                physical id: 0.1
+                bus info: pci@0000:03:00.1
+                version: a1
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:86 memory:ee080000-ee083fff
+        *-generic:0
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0
+             vendor: Intel Corporation
+             physical id: 4
+             bus info: pci@0000:00:04.0
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:62 memory:383ffff20000-383ffff23fff
+        *-generic:1
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1
+             vendor: Intel Corporation
+             physical id: 4.1
+             bus info: pci@0000:00:04.1
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:64 memory:383ffff1c000-383ffff1ffff
+        *-generic:2
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2
+             vendor: Intel Corporation
+             physical id: 4.2
+             bus info: pci@0000:00:04.2
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:62 memory:383ffff18000-383ffff1bfff
+        *-generic:3
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3
+             vendor: Intel Corporation
+             physical id: 4.3
+             bus info: pci@0000:00:04.3
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:64 memory:383ffff14000-383ffff17fff
+        *-generic:4
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4
+             vendor: Intel Corporation
+             physical id: 4.4
+             bus info: pci@0000:00:04.4
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:62 memory:383ffff10000-383ffff13fff
+        *-generic:5
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5
+             vendor: Intel Corporation
+             physical id: 4.5
+             bus info: pci@0000:00:04.5
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:64 memory:383ffff0c000-383ffff0ffff
+        *-generic:6
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6
+             vendor: Intel Corporation
+             physical id: 4.6
+             bus info: pci@0000:00:04.6
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:62 memory:383ffff08000-383ffff0bfff
+        *-generic:7
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7
+             vendor: Intel Corporation
+             physical id: 4.7
+             bus info: pci@0000:00:04.7
+             version: 01
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix pciexpress pm bus_master cap_list
+             configuration: driver=ioatdma latency=0
+             resources: iomemory:383f0-383ef irq:64 memory:383ffff04000-383ffff07fff
+        *-generic:8 UNCLAIMED
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management
+             vendor: Intel Corporation
+             physical id: 5
+             bus info: pci@0000:00:05.0
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pciexpress cap_list
+             configuration: latency=0
+        *-generic:9 UNCLAIMED
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug
+             vendor: Intel Corporation
+             physical id: 5.1
+             bus info: pci@0000:00:05.1
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pciexpress msi cap_list
+             configuration: latency=0
+        *-generic:10 UNCLAIMED
+             description: System peripheral
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors
+             vendor: Intel Corporation
+             physical id: 5.2
+             bus info: pci@0000:00:05.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pciexpress cap_list
+             configuration: latency=0
+        *-generic:11 UNCLAIMED
+             description: PIC
+             product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC
+             vendor: Intel Corporation
+             physical id: 5.4
+             bus info: pci@0000:00:05.4
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pciexpress pm io_x_-apic bus_master cap_list
+             configuration: latency=0
+             resources: memory:ea117000-ea117fff
+        *-generic:12 UNCLAIMED
+             description: Unassigned class
+             product: C610/X99 series chipset SPSR
+             vendor: Intel Corporation
+             physical id: 11
+             bus info: pci@0000:00:11.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pciexpress pm bus_master cap_list
+             configuration: latency=0
+        *-storage:0
+             description: SATA controller
+             product: C610/X99 series chipset sSATA Controller [AHCI mode]
+             vendor: Intel Corporation
+             physical id: 11.4
+             bus info: pci@0000:00:11.4
+             version: 05
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage msi pm ahci_1.0 bus_master cap_list
+             configuration: driver=ahci latency=0
+             resources: irq:40 ioport:7110(size=8) ioport:7100(size=4) ioport:70f0(size=8) ioport:70e0(size=4) ioport:7020(size=32) memory:ea116000-ea1167ff
+        *-usb:0
+             description: USB controller
+             product: C610/X99 series chipset USB xHCI Host Controller
+             vendor: Intel Corporation
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi xhci bus_master cap_list
+             configuration: driver=xhci_hcd latency=0
+             resources: irq:39 memory:ea100000-ea10ffff
+           *-usbhost:0
+                product: xHCI Host Controller
+                vendor: Linux 4.4.0-77-generic xhci-hcd
+                physical id: 0
+                bus info: usb@4
+                logical name: usb4
+                version: 4.04
+                capabilities: usb-3.00
+                configuration: driver=hub slots=6 speed=5000Mbit/s
+           *-usbhost:1
+                product: xHCI Host Controller
+                vendor: Linux 4.4.0-77-generic xhci-hcd
+                physical id: 1
+                bus info: usb@3
+                logical name: usb3
+                version: 4.04
+                capabilities: usb-2.00
+                configuration: driver=hub slots=15 speed=480Mbit/s
+              *-usb
+                   description: USB hub
+                   product: Hub
+                   vendor: ATEN International Co., Ltd
+                   physical id: d
+                   bus info: usb@3:d
+                   version: 0.00
+                   capabilities: usb-2.00
+                   configuration: driver=hub maxpower=100mA slots=4 speed=480Mbit/s
+                 *-usb
+                      description: Keyboard
+                      vendor: ATEN International Co., Ltd
+                      physical id: 1
+                      bus info: usb@3:d.1
+                      version: 1.00
+                      capabilities: usb-1.10
+                      configuration: driver=usbhid maxpower=160mA speed=2Mbit/s
+        *-communication:0 UNCLAIMED
+             description: Communication controller
+             product: C610/X99 series chipset MEI Controller #1
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: latency=0
+             resources: memory:ea115000-ea11500f
+        *-communication:1 UNCLAIMED
+             description: Communication controller
+             product: C610/X99 series chipset MEI Controller #2
+             vendor: Intel Corporation
+             physical id: 16.1
+             bus info: pci@0000:00:16.1
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: latency=0
+             resources: memory:ea114000-ea11400f
+        *-usb:1
+             description: USB controller
+             product: C610/X99 series chipset USB Enhanced Host Controller #2
+             vendor: Intel Corporation
+             physical id: 1a
+             bus info: pci@0000:00:1a.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:18 memory:ea112000-ea1123ff
+           *-usbhost
+                product: EHCI Host Controller
+                vendor: Linux 4.4.0-77-generic ehci_hcd
+                physical id: 1
+                bus info: usb@1
+                logical name: usb1
+                version: 4.04
+                capabilities: usb-2.00
+                configuration: driver=hub slots=2 speed=480Mbit/s
+              *-usb
+                   description: USB hub
+                   vendor: Intel Corp.
+                   physical id: 1
+                   bus info: usb@1:1
+                   version: 0.05
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=6 speed=480Mbit/s
+        *-multimedia
+             description: Audio device
+             product: C610/X99 series chipset HD Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: iomemory:383f0-383ef irq:84 memory:383ffff00000-383ffff03fff
+        *-pci:3
+             description: PCI bridge
+             product: C610/X99 series chipset PCI Express Root Port #1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: d5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:30
+        *-pci:4
+             description: PCI bridge
+             product: C610/X99 series chipset PCI Express Root Port #4
+             vendor: Intel Corporation
+             physical id: 1c.3
+             bus info: pci@0000:00:1c.3
+             version: d5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:31 ioport:4000(size=4096) memory:eb000000-ec0fffff
+           *-pci
+                description: PCI bridge
+                product: AST1150 PCI-to-PCI Bridge
+                vendor: ASPEED Technology, Inc.
+                physical id: 0
+                bus info: pci@0000:05:00.0
+                version: 03
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                resources: ioport:4000(size=4096) memory:eb000000-ec0fffff
+              *-display
+                   description: VGA compatible controller
+                   product: ASPEED Graphics Family
+                   vendor: ASPEED Technology, Inc.
+                   physical id: 0
+                   bus info: pci@0000:06:00.0
+                   version: 30
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pm msi vga_controller bus_master cap_list rom
+                   configuration: driver=ast latency=0
+                   resources: irq:19 memory:eb000000-ebffffff memory:ec000000-ec01ffff ioport:4000(size=128)
+        *-pci:5
+             description: PCI bridge
+             product: C610/X99 series chipset PCI Express Root Port #5
+             vendor: Intel Corporation
+             physical id: 1c.4
+             bus info: pci@0000:00:1c.4
+             version: d5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:32 ioport:1000(size=4096) memory:d4000000-ea0fffff ioport:b0000000(size=570425344)
+        *-usb:2
+             description: USB controller
+             product: C610/X99 series chipset USB Enhanced Host Controller #1
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:18 memory:ea111000-ea1113ff
+           *-usbhost
+                product: EHCI Host Controller
+                vendor: Linux 4.4.0-77-generic ehci_hcd
+                physical id: 1
+                bus info: usb@2
+                logical name: usb2
+                version: 4.04
+                capabilities: usb-2.00
+                configuration: driver=hub slots=2 speed=480Mbit/s
+              *-usb
+                   description: USB hub
+                   vendor: Intel Corp.
+                   physical id: 1
+                   bus info: usb@2:1
+                   version: 0.05
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=8 speed=480Mbit/s
+        *-isa
+             description: ISA bridge
+             product: C610/X99 series chipset LPC Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: driver=lpc_ich latency=0
+             resources: irq:0
+        *-storage:1
+             description: SATA controller
+             product: C610/X99 series chipset 6-Port SATA Controller [AHCI mode]
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             version: 05
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage msi pm ahci_1.0 bus_master cap_list
+             configuration: driver=ahci latency=0
+             resources: irq:41 ioport:7070(size=8) ioport:7060(size=4) ioport:7050(size=8) ioport:7040(size=4) ioport:7000(size=32) memory:ea110000-ea1107ff
+        *-serial UNCLAIMED
+             description: SMBus
+             product: C610/X99 series chipset SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             configuration: latency=0
+             resources: iomemory:383f0-383ef memory:383ffff25000-383ffff250ff ioport:580(size=32)
+     *-generic:0 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+          vendor: Intel Corporation
+          physical id: 7
+          bus info: pci@0000:7f:08.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:1
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+          vendor: Intel Corporation
+          physical id: 8
+          bus info: pci@0000:7f:08.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:2 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+          vendor: Intel Corporation
+          physical id: 9
+          bus info: pci@0000:7f:08.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:3 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+          vendor: Intel Corporation
+          physical id: a
+          bus info: pci@0000:7f:09.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:4
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+          vendor: Intel Corporation
+          physical id: b
+          bus info: pci@0000:7f:09.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:5 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+          vendor: Intel Corporation
+          physical id: c
+          bus info: pci@0000:7f:09.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:6 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+          vendor: Intel Corporation
+          physical id: d
+          bus info: pci@0000:7f:0b.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:7
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+          vendor: Intel Corporation
+          physical id: e
+          bus info: pci@0000:7f:0b.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:8
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+          vendor: Intel Corporation
+          physical id: f
+          bus info: pci@0000:7f:0b.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:9 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug
+          vendor: Intel Corporation
+          physical id: 10
+          bus info: pci@0000:7f:0b.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:10 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 11
+          bus info: pci@0000:7f:0c.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:11 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 12
+          bus info: pci@0000:7f:0c.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:12 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 13
+          bus info: pci@0000:7f:0c.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:13 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 14
+          bus info: pci@0000:7f:0c.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:14 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 15
+          bus info: pci@0000:7f:0c.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:15 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 16
+          bus info: pci@0000:7f:0c.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:16 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 17
+          bus info: pci@0000:7f:0c.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:17 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 18
+          bus info: pci@0000:7f:0c.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:18 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 19
+          bus info: pci@0000:7f:0d.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:19 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 1a
+          bus info: pci@0000:7f:0d.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:20 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 1b
+          bus info: pci@0000:7f:0d.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:21 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 1c
+          bus info: pci@0000:7f:0d.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:22 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 1d
+          bus info: pci@0000:7f:0d.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:23 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 1e
+          bus info: pci@0000:7f:0d.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:24 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 1f
+          bus info: pci@0000:7f:0d.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:25 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 20
+          bus info: pci@0000:7f:0d.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:26 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 21
+          bus info: pci@0000:7f:0e.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:27 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 22
+          bus info: pci@0000:7f:0e.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:28 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 23
+          bus info: pci@0000:7f:0e.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:29 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 24
+          bus info: pci@0000:7f:0e.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:30 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 25
+          bus info: pci@0000:7f:0e.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:31 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 26
+          bus info: pci@0000:7f:0e.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:32 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 27
+          bus info: pci@0000:7f:0f.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:33 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 28
+          bus info: pci@0000:7f:0f.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:34 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 29
+          bus info: pci@0000:7f:0f.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:35 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 2a
+          bus info: pci@0000:7f:0f.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:36 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 2c
+          bus info: pci@0000:7f:0f.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:37 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 2d
+          bus info: pci@0000:7f:0f.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:38 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 2e
+          bus info: pci@0000:7f:0f.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:39 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+          vendor: Intel Corporation
+          physical id: 2f
+          bus info: pci@0000:7f:10.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:40
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+          vendor: Intel Corporation
+          physical id: 31
+          bus info: pci@0000:7f:10.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:41 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+          vendor: Intel Corporation
+          physical id: 32
+          bus info: pci@0000:7f:10.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:42 UNCLAIMED
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+          vendor: Intel Corporation
+          physical id: 33
+          bus info: pci@0000:7f:10.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:43 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+          vendor: Intel Corporation
+          physical id: 34
+          bus info: pci@0000:7f:10.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:44 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+          vendor: Intel Corporation
+          physical id: 36
+          bus info: pci@0000:7f:12.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:45
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+          vendor: Intel Corporation
+          physical id: 37
+          bus info: pci@0000:7f:12.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:46 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
+          vendor: Intel Corporation
+          physical id: 38
+          bus info: pci@0000:7f:12.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:47
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
+          vendor: Intel Corporation
+          physical id: 39
+          bus info: pci@0000:7f:12.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:48 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: 3b
+          bus info: pci@0000:7f:13.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:49 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: 3c
+          bus info: pci@0000:7f:13.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:50 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: 3d
+          bus info: pci@0000:7f:13.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:51 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: 3e
+          bus info: pci@0000:7f:13.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:52 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast
+          vendor: Intel Corporation
+          physical id: 3f
+          bus info: pci@0000:7f:13.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:53 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+          vendor: Intel Corporation
+          physical id: 40
+          bus info: pci@0000:7f:13.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:54
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control
+          vendor: Intel Corporation
+          physical id: 41
+          bus info: pci@0000:7f:14.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:55
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control
+          vendor: Intel Corporation
+          physical id: 42
+          bus info: pci@0000:7f:14.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:56 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error
+          vendor: Intel Corporation
+          physical id: 43
+          bus info: pci@0000:7f:14.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:57 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error
+          vendor: Intel Corporation
+          physical id: 44
+          bus info: pci@0000:7f:14.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:58 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: 45
+          bus info: pci@0000:7f:14.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:59 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: 46
+          bus info: pci@0000:7f:14.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:60 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: 47
+          bus info: pci@0000:7f:14.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:61 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: 48
+          bus info: pci@0000:7f:14.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:62 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: 49
+          bus info: pci@0000:7f:16.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:63 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: 4a
+          bus info: pci@0000:7f:16.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:64 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: 4b
+          bus info: pci@0000:7f:16.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:65 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: 4c
+          bus info: pci@0000:7f:16.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:66 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast
+          vendor: Intel Corporation
+          physical id: 4d
+          bus info: pci@0000:7f:16.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:67 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+          vendor: Intel Corporation
+          physical id: 4e
+          bus info: pci@0000:7f:16.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:68
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control
+          vendor: Intel Corporation
+          physical id: 4f
+          bus info: pci@0000:7f:17.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:69
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control
+          vendor: Intel Corporation
+          physical id: 50
+          bus info: pci@0000:7f:17.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:70 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error
+          vendor: Intel Corporation
+          physical id: 51
+          bus info: pci@0000:7f:17.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:71 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error
+          vendor: Intel Corporation
+          physical id: 52
+          bus info: pci@0000:7f:17.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:72 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: 53
+          bus info: pci@0000:7f:17.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:73 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: 5c
+          bus info: pci@0000:7f:17.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:74 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: 5d
+          bus info: pci@0000:7f:17.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:75 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: 5e
+          bus info: pci@0000:7f:17.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:76 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: 5f
+          bus info: pci@0000:7f:1e.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:77 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: 60
+          bus info: pci@0000:7f:1e.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:78 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: 61
+          bus info: pci@0000:7f:1e.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:79 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: 62
+          bus info: pci@0000:7f:1e.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:80 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: 63
+          bus info: pci@0000:7f:1e.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:81 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: 64
+          bus info: pci@0000:7f:1f.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:82 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: 65
+          bus info: pci@0000:7f:1f.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-pci:1
+          description: PCI bridge
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 0
+          vendor: Intel Corporation
+          physical id: 101
+          bus info: pci@0000:80:00.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pci msi pciexpress pm normal_decode bus_master cap_list
+          configuration: driver=pcieport
+          resources: irq:34 ioport:f000(size=4096) memory:fb100000-fb1fffff ioport:384000000000(size=1048576)
+        *-network:0
+             description: Ethernet interface
+             product: I350 Gigabit Network Connection
+             vendor: Intel Corporation
+             physical id: 0
+             bus info: pci@0000:81:00.0
+             logical name: eno1
+             version: 01
+             serial: 0c:c4:7a:e4:96:c6
+             capacity: 1Gbit/s
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm msi msix pciexpress bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+             configuration: autonegotiation=on broadcast=yes driver=igb driverversion=5.3.0-k firmware=1.63, 0x800009fa latency=0 link=no multicast=yes port=twisted pair
+             resources: irq:33 memory:fb120000-fb13ffff ioport:f020(size=32) memory:fb144000-fb147fff memory:384000000000-38400001ffff memory:384000020000-38400003ffff
+        *-network:1
+             description: Ethernet interface
+             product: I350 Gigabit Network Connection
+             vendor: Intel Corporation
+             physical id: 0.1
+             bus info: pci@0000:81:00.1
+             logical name: eno2
+             version: 01
+             serial: 0c:c4:7a:e4:96:c7
+             size: 1Gbit/s
+             capacity: 1Gbit/s
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm msi msix pciexpress bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+             configuration: autonegotiation=on broadcast=yes driver=igb driverversion=5.3.0-k duplex=full firmware=1.63, 0x800009fa ip=10.0.102.175 latency=0 link=yes multicast=yes port=twisted pair speed=1Gbit/s
+             resources: irq:51 memory:fb100000-fb11ffff ioport:f000(size=32) memory:fb140000-fb143fff memory:384000040000-38400005ffff memory:384000060000-38400007ffff
+     *-pci:2
+          description: PCI bridge
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 2
+          vendor: Intel Corporation
+          physical id: 2
+          bus info: pci@0000:80:02.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pci msi pciexpress pm normal_decode bus_master cap_list
+          configuration: driver=pcieport
+          resources: irq:36 ioport:e000(size=4096) memory:fa000000-fb0fffff ioport:387fe0000000(size=301989888)
+        *-display
+             description: VGA compatible controller
+             product: NVIDIA Corporation
+             vendor: NVIDIA Corporation
+             physical id: 0
+             bus info: pci@0000:82:00.0
+             version: a1
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+             configuration: driver=nvidia latency=0
+             resources: iomemory:387f0-387ef iomemory:387f0-387ef irq:90 memory:fa000000-faffffff memory:387fe0000000-387fefffffff memory:387ff0000000-387ff1ffffff ioport:e000(size=128) memory:fb000000-fb07ffff
+        *-multimedia
+             description: Audio device
+             product: NVIDIA Corporation
+             vendor: NVIDIA Corporation
+             physical id: 0.1
+             bus info: pci@0000:82:00.1
+             version: a1
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:87 memory:fb080000-fb083fff
+     *-pci:3
+          description: PCI bridge
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D PCI Express Root Port 3
+          vendor: Intel Corporation
+          physical id: 3
+          bus info: pci@0000:80:03.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pci msi pciexpress pm normal_decode bus_master cap_list
+          configuration: driver=pcieport
+          resources: irq:38 ioport:d000(size=4096) memory:f8000000-f90fffff ioport:387fc0000000(size=301989888)
+        *-display
+             description: VGA compatible controller
+             product: NVIDIA Corporation
+             vendor: NVIDIA Corporation
+             physical id: 0
+             bus info: pci@0000:83:00.0
+             version: a1
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress vga_controller bus_master cap_list rom
+             configuration: driver=nvidia latency=0
+             resources: iomemory:387f0-387ef iomemory:387f0-387ef irq:91 memory:f8000000-f8ffffff memory:387fc0000000-387fcfffffff memory:387fd0000000-387fd1ffffff ioport:d000(size=128) memory:f9000000-f907ffff
+        *-multimedia
+             description: Audio device
+             product: NVIDIA Corporation
+             vendor: NVIDIA Corporation
+             physical id: 0.1
+             bus info: pci@0000:83:00.1
+             version: a1
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:88 memory:f9080000-f9083fff
+     *-generic:83
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 0
+          vendor: Intel Corporation
+          physical id: 4
+          bus info: pci@0000:80:04.0
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:74 memory:387ffff1c000-387ffff1ffff
+     *-generic:84
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 1
+          vendor: Intel Corporation
+          physical id: 4.1
+          bus info: pci@0000:80:04.1
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:76 memory:387ffff18000-387ffff1bfff
+     *-generic:85
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 2
+          vendor: Intel Corporation
+          physical id: 4.2
+          bus info: pci@0000:80:04.2
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:74 memory:387ffff14000-387ffff17fff
+     *-generic:86
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 3
+          vendor: Intel Corporation
+          physical id: 4.3
+          bus info: pci@0000:80:04.3
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:76 memory:387ffff10000-387ffff13fff
+     *-generic:87
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 4
+          vendor: Intel Corporation
+          physical id: 4.4
+          bus info: pci@0000:80:04.4
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:74 memory:387ffff0c000-387ffff0ffff
+     *-generic:88
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 5
+          vendor: Intel Corporation
+          physical id: 4.5
+          bus info: pci@0000:80:04.5
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:76 memory:387ffff08000-387ffff0bfff
+     *-generic:89
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 6
+          vendor: Intel Corporation
+          physical id: 4.6
+          bus info: pci@0000:80:04.6
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:74 memory:387ffff04000-387ffff07fff
+     *-generic:90
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Crystal Beach DMA Channel 7
+          vendor: Intel Corporation
+          physical id: 4.7
+          bus info: pci@0000:80:04.7
+          version: 01
+          width: 64 bits
+          clock: 33MHz
+          capabilities: msix pciexpress pm bus_master cap_list
+          configuration: driver=ioatdma latency=0
+          resources: iomemory:387f0-387ef irq:76 memory:387ffff00000-387ffff03fff
+     *-generic:91 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Map/VTd_Misc/System Management
+          vendor: Intel Corporation
+          physical id: 5
+          bus info: pci@0000:80:05.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:92 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO Hot Plug
+          vendor: Intel Corporation
+          physical id: 5.1
+          bus info: pci@0000:80:05.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress msi cap_list
+          configuration: latency=0
+     *-generic:93 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D IIO RAS/Control Status/Global Errors
+          vendor: Intel Corporation
+          physical id: 5.2
+          bus info: pci@0000:80:05.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:94 UNCLAIMED
+          description: PIC
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D I/O APIC
+          vendor: Intel Corporation
+          physical id: 5.4
+          bus info: pci@0000:80:05.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress pm io_x_-apic bus_master cap_list
+          configuration: latency=0
+          resources: memory:fb200000-fb200fff
+     *-generic:95 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+          vendor: Intel Corporation
+          physical id: 66
+          bus info: pci@0000:ff:08.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:96
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+          vendor: Intel Corporation
+          physical id: 67
+          bus info: pci@0000:ff:08.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:97 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 0
+          vendor: Intel Corporation
+          physical id: 68
+          bus info: pci@0000:ff:08.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:98 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+          vendor: Intel Corporation
+          physical id: 69
+          bus info: pci@0000:ff:09.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:99
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+          vendor: Intel Corporation
+          physical id: 6a
+          bus info: pci@0000:ff:09.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:100 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 1
+          vendor: Intel Corporation
+          physical id: 6b
+          bus info: pci@0000:ff:09.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:101 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+          vendor: Intel Corporation
+          physical id: 6c
+          bus info: pci@0000:ff:0b.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:102
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+          vendor: Intel Corporation
+          physical id: 6d
+          bus info: pci@0000:ff:0b.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:103
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link 0/1
+          vendor: Intel Corporation
+          physical id: 6e
+          bus info: pci@0000:ff:0b.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:104 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R3 QPI Link Debug
+          vendor: Intel Corporation
+          physical id: 6f
+          bus info: pci@0000:ff:0b.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:105 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 70
+          bus info: pci@0000:ff:0c.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:106 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 71
+          bus info: pci@0000:ff:0c.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:107 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 72
+          bus info: pci@0000:ff:0c.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:108 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 73
+          bus info: pci@0000:ff:0c.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:109 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 74
+          bus info: pci@0000:ff:0c.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:110 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 75
+          bus info: pci@0000:ff:0c.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:111 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 76
+          bus info: pci@0000:ff:0c.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:112 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 77
+          bus info: pci@0000:ff:0c.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:113 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 78
+          bus info: pci@0000:ff:0d.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:114 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 79
+          bus info: pci@0000:ff:0d.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:115 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 7a
+          bus info: pci@0000:ff:0d.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:116 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 7b
+          bus info: pci@0000:ff:0d.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:117 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 7c
+          bus info: pci@0000:ff:0d.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:118 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 7d
+          bus info: pci@0000:ff:0d.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:119 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 7e
+          bus info: pci@0000:ff:0d.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:120 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 7f
+          bus info: pci@0000:ff:0d.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:121 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 80
+          bus info: pci@0000:ff:0e.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:122 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 81
+          bus info: pci@0000:ff:0e.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:123 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 82
+          bus info: pci@0000:ff:0e.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:124 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 83
+          bus info: pci@0000:ff:0e.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:125 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 84
+          bus info: pci@0000:ff:0e.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:126 UNCLAIMED
+          description: Unassigned class
+          product: Intel Corporation
+          vendor: Intel Corporation
+          physical id: 85
+          bus info: pci@0000:ff:0e.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:127 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 86
+          bus info: pci@0000:ff:0f.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:128 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 87
+          bus info: pci@0000:ff:0f.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:129 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 88
+          bus info: pci@0000:ff:0f.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:130 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 89
+          bus info: pci@0000:ff:0f.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:131 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 8a
+          bus info: pci@0000:ff:0f.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:132 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 8b
+          bus info: pci@0000:ff:0f.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:133 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Caching Agent
+          vendor: Intel Corporation
+          physical id: 8c
+          bus info: pci@0000:ff:0f.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:134 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+          vendor: Intel Corporation
+          physical id: 8d
+          bus info: pci@0000:ff:10.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:135
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D R2PCIe Agent
+          vendor: Intel Corporation
+          physical id: 8e
+          bus info: pci@0000:ff:10.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:136 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+          vendor: Intel Corporation
+          physical id: 8f
+          bus info: pci@0000:ff:10.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:137 UNCLAIMED
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+          vendor: Intel Corporation
+          physical id: 90
+          bus info: pci@0000:ff:10.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:138 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Ubox
+          vendor: Intel Corporation
+          physical id: 91
+          bus info: pci@0000:ff:10.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:139
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+          vendor: Intel Corporation
+          physical id: 92
+          bus info: pci@0000:ff:12.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=sbridge_edac latency=0
+          resources: irq:0
+     *-generic:140
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 0
+          vendor: Intel Corporation
+          physical id: 93
+          bus info: pci@0000:ff:12.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:141 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
+          vendor: Intel Corporation
+          physical id: 94
+          bus info: pci@0000:ff:12.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:142
+          description: Performance counters
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
+          vendor: Intel Corporation
+          physical id: 95
+          bus info: pci@0000:ff:12.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:143 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: 96
+          bus info: pci@0000:ff:13.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:144 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: 97
+          bus info: pci@0000:ff:13.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:145 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: 98
+          bus info: pci@0000:ff:13.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:146 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: 99
+          bus info: pci@0000:ff:13.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:147 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Broadcast
+          vendor: Intel Corporation
+          physical id: 9a
+          bus info: pci@0000:ff:13.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:148 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+          vendor: Intel Corporation
+          physical id: 9b
+          bus info: pci@0000:ff:13.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:149
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Thermal Control
+          vendor: Intel Corporation
+          physical id: 9c
+          bus info: pci@0000:ff:14.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:150
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Thermal Control
+          vendor: Intel Corporation
+          physical id: 9d
+          bus info: pci@0000:ff:14.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:151 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 0 Error
+          vendor: Intel Corporation
+          physical id: 9e
+          bus info: pci@0000:ff:14.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:152 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 0 - Channel 1 Error
+          vendor: Intel Corporation
+          physical id: 9f
+          bus info: pci@0000:ff:14.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:153 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: a0
+          bus info: pci@0000:ff:14.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:154 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: a1
+          bus info: pci@0000:ff:14.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:155 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: a2
+          bus info: pci@0000:ff:14.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:156 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 0/1 Interface
+          vendor: Intel Corporation
+          physical id: a3
+          bus info: pci@0000:ff:14.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:157 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: a4
+          bus info: pci@0000:ff:16.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:158 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
+          vendor: Intel Corporation
+          physical id: a5
+          bus info: pci@0000:ff:16.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:159 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: a6
+          bus info: pci@0000:ff:16.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:160 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
+          vendor: Intel Corporation
+          physical id: a7
+          bus info: pci@0000:ff:16.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:161 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Broadcast
+          vendor: Intel Corporation
+          physical id: a8
+          bus info: pci@0000:ff:16.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:162 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Global Broadcast
+          vendor: Intel Corporation
+          physical id: a9
+          bus info: pci@0000:ff:16.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:163
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Thermal Control
+          vendor: Intel Corporation
+          physical id: aa
+          bus info: pci@0000:ff:17.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:164
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Thermal Control
+          vendor: Intel Corporation
+          physical id: ab
+          bus info: pci@0000:ff:17.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: driver=bdx_uncore latency=0
+          resources: irq:0
+     *-generic:165 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 0 Error
+          vendor: Intel Corporation
+          physical id: ac
+          bus info: pci@0000:ff:17.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:166 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Memory Controller 1 - Channel 1 Error
+          vendor: Intel Corporation
+          physical id: ad
+          bus info: pci@0000:ff:17.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          capabilities: pciexpress cap_list
+          configuration: latency=0
+     *-generic:167 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: ae
+          bus info: pci@0000:ff:17.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:168 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: af
+          bus info: pci@0000:ff:17.5
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:169 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: b0
+          bus info: pci@0000:ff:17.6
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:170 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DDRIO Channel 2/3 Interface
+          vendor: Intel Corporation
+          physical id: b1
+          bus info: pci@0000:ff:17.7
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:171 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: b2
+          bus info: pci@0000:ff:1e.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:172 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: b3
+          bus info: pci@0000:ff:1e.1
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:173 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: b4
+          bus info: pci@0000:ff:1e.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:174 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: b5
+          bus info: pci@0000:ff:1e.3
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:175 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: b6
+          bus info: pci@0000:ff:1e.4
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:176 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: b7
+          bus info: pci@0000:ff:1f.0
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-generic:177 UNCLAIMED
+          description: System peripheral
+          product: Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Power Control Unit
+          vendor: Intel Corporation
+          physical id: b8
+          bus info: pci@0000:ff:1f.2
+          version: 01
+          width: 32 bits
+          clock: 33MHz
+          configuration: latency=0
+     *-scsi:0
+          physical id: b9
+          logical name: scsi6
+          capabilities: emulated
+        *-disk
+             description: ATA Disk
+             product: Samsung SSD 850
+             physical id: 0.0.0
+             bus info: scsi@6:0.0.0
+             logical name: /dev/sda
+             version: 2B6Q
+             serial: S2RANB0J308916J
+             size: 465GiB (500GB)
+             capabilities: partitioned partitioned:dos
+             configuration: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=000ec261
+           *-volume
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@6:0.0.0,1
+                logical name: /dev/sda1
+                logical name: /
+                version: 1.0
+                serial: 32785fa4-6210-4334-b035-db5a40319cb7
+                size: 70GiB
+                capacity: 70GiB
+                capabilities: primary bootable journaled extended_attributes large_files huge_files dir_nlink recover extents ext4 ext2 initialized
+                configuration: created=2015-05-19 11:30:17 filesystem=ext4 lastmountpoint=/ modified=2017-08-15 17:03:53 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,data=ordered mounted=2017-08-15 17:03:54 state=mounted
+     *-scsi:1
+          physical id: ba
+          logical name: scsi9
+          capabilities: emulated
+        *-disk
+             description: ATA Disk
+             product: Samsung SSD 850
+             physical id: 0.0.0
+             bus info: scsi@9:0.0.0
+             logical name: /dev/sdb
+             version: 2B6Q
+             serial: S2R5NX0J407741Y
+             size: 232GiB (250GB)
+             capabilities: partitioned partitioned:dos
+             configuration: ansiversion=5 logicalsectorsize=512 sectorsize=512 signature=d791bf8a
+           *-volume
+                description: EXT4 volume
+                vendor: Linux
+                physical id: 1
+                bus info: scsi@9:0.0.0,1
+                logical name: /dev/sdb1
+                logical name: /public
+                version: 1.0
+                serial: 89b63902-0dfb-4311-bd65-2dd15a76ec2e
+                size: 232GiB
+                capacity: 232GiB
+                capabilities: primary journaled extended_attributes large_files huge_files dir_nlink recover extents ext4 ext2 initialized
+                configuration: created=2017-05-03 16:51:34 filesystem=ext4 lastmountpoint=/public modified=2017-08-15 17:03:55 mount.fstype=ext4 mount.options=rw,relatime,data=ordered mounted=2017-08-15 17:03:55 state=mounted
+  *-power:0 UNCLAIMED
+       description: PWS-2K04A-1R
+       product: PWS-2K04A-1R
+       vendor: SUPERMICRO
+       physical id: 1
+       version: 1.1
+       serial: P2K4ACG35QT1980
+       capacity: 2000mWh
+  *-power:1 UNCLAIMED
+       description: PWS-2K04A-1R
+       product: PWS-2K04A-1R
+       vendor: SUPERMICRO
+       physical id: 2
+       version: 1.1
+       serial: P2K4ACG35QT1979
+       capacity: 2000mWh

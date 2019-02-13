@@ -1,0 +1,4 @@
+This is a test file.
+It is a text containing only two lines.
+I am Xiaomeng Li.
+I am learning version control.

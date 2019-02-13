@@ -1,0 +1,103 @@
+\documentclass[titlepage]{article}
+
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage{graphicx} % Package for including figures
+%\usepackage{psfrag,color}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+
+\title{HW2 Data Report for Math/CS 471}
+\author{Xiaomeng Li}
+\date{09/16/2017}   % Activate to display a given date or no date
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is the HW2 report. This report is made all through LaTeX.
+\end{abstract}
+
+\section{Question 1}
+We run the script and see the output. The iteration is ten times.
+
+\section{Question 2}
+Please see the newtonS.f90.Template file. The do-while loop is used
+for approximating the absolute error.
+
+\section{Question 3}
+In newtonS.f90.Template file, I add linear and quadratic convergence
+right after the x output. So for every iteration there should be a
+total of 6 outputs.
+
+\section{Question 4}
+\subsection{Convergence}
+The first number is linear convergence and the second is quadratic
+convergence.  
+Rate of convergence for 'x' is 0.5000000000000000E+00 and
+0.5000000000000000E+00.
+Rate of convergence for 'x*x' is 0.5000000000000000E+00 and 
+0.1407374883553280E+15. 
+Rate of convergence for 'sin(x)+cos(x*x)' is 0.1633240749027686E-04 and
+0.7677507053309917E+00.
+The results are read from the file when the iteration reaches maximum.
+
+\subsection{Convergence discussion}
+$f'(x)$ is ('1.d0', '2.d0*x', 'cos(x)-2.d0*x*sin(x*x)'). 
+For the first one, when x comes closer to its root, there should not
+be very big change happening since $f'(x)$ is already a
+constant. However, when it comes to the second one, it is difficult to
+determine convergence since x still exists in the equation. The third
+is better since they are cos() and sin(), which is more possible to give a
+final rate of convergence I think when it comes to quadratic
+convergence. The data also proves this quadratic convergence when it
+reaches fifth and sixth iteration in case three.
+
+\subsection{Modified Newton’s method discussion}
+I think I will implement Modified Newton’s method on case two since
+the multiplicity m of the root is known in advance (I know what $f'(x)$
+is as soon as I have a x). $-$$m\times($f'(x)$/$f(x)$)$ = $x_{n+1}$
+$-$ $x_{n}$. So I will just modify newtonS.f90.Template file.
+\section{Question 5}
+$>>$ is actally more useful.
+\section{Question 6}
+One good method writing double slashes at the end of each output data row has
+not come up though.
+\section {Tabulated Data}
+Explanation: Table 1: the first character is the case ( 'x', 'x*x' ,
+'sin(x)+cos(x*x)'). The second number is the iteration number. The
+third one is x value, the forth one is dx. Table 2: Explanation: the first
+character is the case ( 'x', 'x*x' , 'sin(x)+cos(x*x)'). The second
+numbe is the iteration number. The third one is linear convergence 
+and the forth one is quadratic convergence.
+ 
+\subsection{Table1without convergence}
+
+\begin{centering}
+\begin{longtable}[h]
+ 
+\hline
+ \hline
+\input{tmp1.tex}  
+ \hline
+\hline
+
+\end{longtable}
+\end{centering}
+
+\subsection{Table2with convergence}
+
+\begin{centering}
+\begin{longtable}[h]
+ 
+\hline
+ \hline
+\input{tmp2.tex}  
+ \hline
+\hline
+
+\end{longtable}
+\end{centering}
+\end{document}
+
+

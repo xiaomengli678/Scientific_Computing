@@ -1,0 +1,5 @@
+ Past n=minGrid to maxgrid wrote wall_time_threads.txt h_eff.txt and errVal.txt
+ Past n=20 wrote wall_time_threads_n20.txt
+ Past n=800 wrote wall_time_threads_n800.txt
+ Past n=200 wrote wall_time_threads_n200.txt
+ finnished successfully

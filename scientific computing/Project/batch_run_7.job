@@ -1,0 +1,12 @@
+#!/bin/bash                                                                                       
+#SBATCH -A TG-DMS170023     # account name (project charge number)                                
+#SBATCH -J f7      # job name                                                            
+#SBATCH -o f7_out.%j     # output file                                                         
+#SBATCH -e f7_err.%j     # error file                                                          
+#SBATCH -N 7                # total nodes requested                                               
+#SBATCH -n 7                # total MPI tasks requested                                           
+#SBATCH -p development      # queue name (use development for requested time < 2hrs)              
+#SBATCH -t 00:05:00         # total wall clock time requested <hh:mm:ss>                          
+
+ibrun -n 7 ./project_mpi
+

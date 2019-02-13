@@ -1,0 +1,14 @@
+# Makefile1
+
+output.txt: code.x
+	./code.x > output.txt
+
+code.x: main.o sub1.o sub2.o
+	gfortran main.o sub1.o sub2.o -o code.x
+
+main.o: main.f90
+	gfortran -c main.f90
+sub1.o: sub1.f90
+	gfortran -c sub1.f90
+sub2.o: sub2.f90
+	gfortran -c sub2.f90

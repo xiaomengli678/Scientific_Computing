@@ -1,0 +1,22 @@
+# Makefile5
+
+FC = gfortran
+FFLAGS = -O3
+OBJECTS = main.o sub1.o sub2.o
+.PHONY: graph clean
+
+output.txt: code.x
+	./code.x > output.txt
+
+code.x: $(OBJECTS)
+	$(FC) $(OBJECTS) -o code.x
+
+%.o : %.f90
+	$(FC) $(FFLAGS) -c $< 
+
+graph: 
+	nohup matlab -nosplash -nodisplay < plot_sin.m > o.txt
+	open -a preview plot_sin.eps
+
+clean:
+	rm -f $(OBJECTS) code.x output.txt plot_sin.eps o.txt

@@ -1,0 +1,13 @@
+# Makefile3
+
+FC = gfortran
+OBJECTS = main.o sub1.o sub2.o
+
+output.txt: code.x
+	./code.x > output.txt
+
+code.x: $(OBJECTS)
+	$(FC) $(OBJECTS) -o code.x
+
+%.o : %.f90
+	$(FC) -c $< 

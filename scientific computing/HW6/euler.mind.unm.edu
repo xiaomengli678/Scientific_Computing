@@ -1,0 +1,16 @@
+ With            1  threads this takes:   0.77269709482789040       wall clock time.
+ With            2  threads this takes:   0.68007873930037022       wall clock time.
+ With            3  threads this takes:   0.53228476829826832       wall clock time.
+ With            4  threads this takes:   0.36790993250906467       wall clock time.
+ With            5  threads this takes:   0.15840147435665131       wall clock time.
+ With            6  threads this takes:   0.13445082493126392       wall clock time.
+ With            7  threads this takes:    8.6763210594654083E-002  wall clock time.
+ With            8  threads this takes:    7.8702565282583237E-002  wall clock time.
+ With            9  threads this takes:    8.6848415434360504E-002  wall clock time.
+ With           10  threads this takes:    7.3930280283093452E-002  wall clock time.
+ With           11  threads this takes:    8.9985935017466545E-002  wall clock time.
+ With           12  threads this takes:   0.12174803204834461       wall clock time.
+ With           13  threads this takes:    7.5440282002091408E-002  wall clock time.
+ With           14  threads this takes:    5.3103964775800705E-002  wall clock time.
+ With           15  threads this takes:    6.5476385876536369E-002  wall clock time.
+ With           16  threads this takes:    6.9322045892477036E-002  wall clock time.

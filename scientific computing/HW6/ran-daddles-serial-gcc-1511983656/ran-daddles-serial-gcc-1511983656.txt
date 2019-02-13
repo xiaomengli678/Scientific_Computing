@@ -1,0 +1,2 @@
+ Past n=minGrid to maxgrid wrote h_eff.txt and errVal.txt
+ finnished successfully

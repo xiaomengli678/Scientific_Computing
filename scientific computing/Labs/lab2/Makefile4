@@ -1,0 +1,18 @@
+# Makefile4
+
+FC = gfortran
+FFLAGS = -O3
+OBJECTS = main.o sub1.o sub2.o
+.PHONY: clean
+
+output.txt: code.x
+	./code.x > output.txt
+
+code.x: $(OBJECTS)
+	$(FC) $(OBJECTS) -o code.x
+
+%.o : %.f90
+	$(FC) $(FFLAGS) -c $< 
+
+clean:
+	rm -f $(OBJECTS) code.x output.txt

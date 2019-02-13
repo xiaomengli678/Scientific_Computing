@@ -1,0 +1,6 @@
+ Past n=minGrid to maxgrid wrote h_eff.txt and errVal.txt
+ also wrote time.txt
+ Past n=20 wrote strong_small.txt
+ Past n=800 wrote strong_large.txt
+ Past n=200 wrote weak.txt
+ finnished successfully

@@ -1,0 +1,1612 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 SEP 2017 21:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**HW2_auto.tex
+(./HW2_auto.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks25
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks27
+\inpenc@posthook=\toks28
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count100
+\LTcapwidth=\dimen114
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count101
+\LT@rows=\count102
+\c@LT@tables=\count103
+\c@LT@chunks=\count104
+\LT@p@ftn=\toks29
+)
+(./HW2_auto.aux)
+\openout1 = `HW2_auto.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen115
+\scratchbox=\box32
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen116
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks31
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (82.71965pt too wide) in paragraph at lines 35--44
+\OT1/cmr/m/n/12 gence. Rate of con-ver-gence for 'x' is 0.5000000000000000E+00 
+and 0.5000000000000000E+00.
+ []
+
+
+Overfull \hbox (58.67592pt too wide) in paragraph at lines 35--44
+\OT1/cmr/m/n/12 Rate of con-ver-gence for 'x*x' is 0.5000000000000000E+00 and 0
+.1407374883553280E+15.
+ []
+
+[1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2]
+Runaway argument?
+! Paragraph ended before \LT@array was complete.
+<to be read again> 
+                   \par 
+l.74 
+     
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.75 \hline
+           
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.76  \hline
+            
+? 
+(./tmp2modify.tex
+! Misplaced alignment tab character &.
+l.1  x &
+         01 & 0.0000000000000000E+00 & 0.5000000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.1  x & 01 &
+              0.0000000000000000E+00 & 0.5000000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.1  x & 01 & 0.0000000000000000E+00 &
+                                       0.5000000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.2  0.1000000000000000E+01 &
+                              0.1000000000000000E+01 \\
+? 
+! Misplaced alignment tab character &.
+l.3  x &
+         02 & 0.0000000000000000E+00 & -0.0000000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.3  x & 02 &
+              0.0000000000000000E+00 & -0.0000000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.3  x & 02 & 0.0000000000000000E+00 &
+                                       -0.0000000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.4  0.5000000000000000E+00 &
+                              0.5000000000000000E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.5  x*x &
+           01 & -0.2500000000000000E+00 & 0.2500000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.5  x*x & 01 &
+                -0.2500000000000000E+00 & 0.2500000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.5  x*x & 01 & -0.2500000000000000E+00 &
+                                          0.2500000000000000E+00 \\
+? 
+! Misplaced alignment tab character &.
+l.6  0.1000000000000000E+01 &
+                              0.1000000000000000E+01  \\
+? 
+! Misplaced alignment tab character &.
+l.7  x*x &
+           02 & -0.1250000000000000E+00 & 0.1250000000000000E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.7  x*x & 02 &
+                -0.1250000000000000E+00 & 0.1250000000000000E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.7  x*x & 02 & -0.1250000000000000E+00 &
+                                          0.1250000000000000E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.8  0.2500000000000000E+00 &
+                              0.2500000000000000E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.9  x*x &
+           03 & -0.6250000000000000E-01 & 0.6250000000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.9  x*x & 03 &
+                -0.6250000000000000E-01 & 0.6250000000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.9  x*x & 03 & -0.6250000000000000E-01 &
+                                          0.6250000000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.10  0.5000000000000000E+00 &
+                               0.2000000000000000E+01  \\
+? 
+! Misplaced alignment tab character &.
+l.11  x*x &
+            04 & -0.3125000000000000E-01 & 0.3125000000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.11  x*x & 04 &
+                 -0.3125000000000000E-01 & 0.3125000000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.11  x*x & 04 & -0.3125000000000000E-01 &
+                                           0.3125000000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.12  0.5000000000000000E+00 &
+                               0.4000000000000000E+01  \\
+? 
+! Misplaced alignment tab character &.
+l.13  x*x &
+            05 & -0.1562500000000000E-01 & 0.1562500000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.13  x*x & 05 &
+                 -0.1562500000000000E-01 & 0.1562500000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.13  x*x & 05 & -0.1562500000000000E-01 &
+                                           0.1562500000000000E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.14  0.5000000000000000E+00 &
+                               0.8000000000000000E+01  \\
+? 
+! Misplaced alignment tab character &.
+l.15  x*x &
+            06 & -0.7812500000000000E-02 & 0.7812500000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.15  x*x & 06 &
+                 -0.7812500000000000E-02 & 0.7812500000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.15  x*x & 06 & -0.7812500000000000E-02 &
+                                           0.7812500000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.16  0.5000000000000000E+00 &
+                               0.1600000000000000E+02  \\
+? 
+! Misplaced alignment tab character &.
+l.17  x*x &
+            07 & -0.3906250000000000E-02 & 0.3906250000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.17  x*x & 07 &
+                 -0.3906250000000000E-02 & 0.3906250000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.17  x*x & 07 & -0.3906250000000000E-02 &
+                                           0.3906250000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.18  0.5000000000000000E+00 &
+                               0.3200000000000000E+02  \\
+? 
+! Misplaced alignment tab character &.
+l.19  x*x &
+            08 & -0.1953125000000000E-02 & 0.1953125000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.19  x*x & 08 &
+                 -0.1953125000000000E-02 & 0.1953125000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.19  x*x & 08 & -0.1953125000000000E-02 &
+                                           0.1953125000000000E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.20  0.5000000000000000E+00 &
+                               0.6400000000000000E+02  \\
+? 
+! Misplaced alignment tab character &.
+l.21  x*x &
+            09 & -0.9765625000000000E-03 & 0.9765625000000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.21  x*x & 09 &
+                 -0.9765625000000000E-03 & 0.9765625000000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.21  x*x & 09 & -0.9765625000000000E-03 &
+                                           0.9765625000000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.22  0.5000000000000000E+00 &
+                               0.1280000000000000E+03  \\
+? 
+! Misplaced alignment tab character &.
+l.23  x*x &
+            10 & -0.4882812500000000E-03 & 0.4882812500000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.23  x*x & 10 &
+                 -0.4882812500000000E-03 & 0.4882812500000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.23  x*x & 10 & -0.4882812500000000E-03 &
+                                           0.4882812500000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.24  0.5000000000000000E+00 &
+                               0.2560000000000000E+03  \\
+? 
+! Misplaced alignment tab character &.
+l.25  x*x &
+            11 & -0.2441406250000000E-03 & 0.2441406250000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.25  x*x & 11 &
+                 -0.2441406250000000E-03 & 0.2441406250000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.25  x*x & 11 & -0.2441406250000000E-03 &
+                                           0.2441406250000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.26  0.5000000000000000E+00 &
+                               0.5120000000000000E+03  \\
+? 
+! Misplaced alignment tab character &.
+l.27  x*x &
+            12 & -0.1220703125000000E-03 & 0.1220703125000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.27  x*x & 12 &
+                 -0.1220703125000000E-03 & 0.1220703125000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.27  x*x & 12 & -0.1220703125000000E-03 &
+                                           0.1220703125000000E-03  \\
+? 
+! Misplaced alignment tab character &.
+l.28  0.5000000000000000E+00 &
+                               0.1024000000000000E+04  \\
+? 
+! Misplaced alignment tab character &.
+l.29  x*x &
+            13 & -0.6103515625000000E-04 & 0.6103515625000000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.29  x*x & 13 &
+                 -0.6103515625000000E-04 & 0.6103515625000000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.29  x*x & 13 & -0.6103515625000000E-04 &
+                                           0.6103515625000000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.30  0.5000000000000000E+00 &
+                               0.2048000000000000E+04  \\
+? 
+! Misplaced alignment tab character &.
+l.31  x*x &
+            14 & -0.3051757812500000E-04 & 0.3051757812500000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.31  x*x & 14 &
+                 -0.3051757812500000E-04 & 0.3051757812500000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.31  x*x & 14 & -0.3051757812500000E-04 &
+                                           0.3051757812500000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.32  0.5000000000000000E+00 &
+                               0.4096000000000000E+04  \\
+? 
+! Misplaced alignment tab character &.
+l.33  x*x &
+            15 & -0.1525878906250000E-04 & 0.1525878906250000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.33  x*x & 15 &
+                 -0.1525878906250000E-04 & 0.1525878906250000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.33  x*x & 15 & -0.1525878906250000E-04 &
+                                           0.1525878906250000E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.34  0.5000000000000000E+00 &
+                               0.8192000000000000E+04  \\
+? 
+[3]
+! Misplaced alignment tab character &.
+l.35  x*x &
+            16 & -0.7629394531250000E-05 & 0.7629394531250000E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.35  x*x & 16 &
+                 -0.7629394531250000E-05 & 0.7629394531250000E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.35  x*x & 16 & -0.7629394531250000E-05 &
+                                           0.7629394531250000E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.36  0.5000000000000000E+00 &
+                               0.1638400000000000E+05  \\
+? 
+! Misplaced alignment tab character &.
+l.37  x*x &
+            17 & -0.3814697265625000E-05 & 0.3814697265625000E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.37  x*x & 17 &
+                 -0.3814697265625000E-05 & 0.3814697265625000E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.37  x*x & 17 & -0.3814697265625000E-05 &
+                                           0.3814697265625000E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.38  0.5000000000000000E+00 &
+                               0.3276800000000000E+05  \\
+? 
+! Misplaced alignment tab character &.
+l.39  x*x &
+            18 & -0.1907348632812500E-05 & 0.1907348632812500E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.39  x*x & 18 &
+                 -0.1907348632812500E-05 & 0.1907348632812500E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.39  x*x & 18 & -0.1907348632812500E-05 &
+                                           0.1907348632812500E-05  \\
+? 
+! Misplaced alignment tab character &.
+l.40  0.5000000000000000E+00 &
+                               0.6553600000000000E+05  \\
+? 
+! Misplaced alignment tab character &.
+l.41  x*x &
+            19 & -0.9536743164062500E-06 & 0.9536743164062500E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.41  x*x & 19 &
+                 -0.9536743164062500E-06 & 0.9536743164062500E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.41  x*x & 19 & -0.9536743164062500E-06 &
+                                           0.9536743164062500E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.42  0.5000000000000000E+00 &
+                               0.1310720000000000E+06  \\
+? 
+! Misplaced alignment tab character &.
+l.43  x*x &
+            20 & -0.4768371582031250E-06 & 0.4768371582031250E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.43  x*x & 20 &
+                 -0.4768371582031250E-06 & 0.4768371582031250E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.43  x*x & 20 & -0.4768371582031250E-06 &
+                                           0.4768371582031250E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.44  0.5000000000000000E+00 &
+                               0.2621440000000000E+06  \\
+? 
+! Misplaced alignment tab character &.
+l.45  x*x &
+            21 & -0.2384185791015625E-06 & 0.2384185791015625E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.45  x*x & 21 &
+                 -0.2384185791015625E-06 & 0.2384185791015625E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.45  x*x & 21 & -0.2384185791015625E-06 &
+                                           0.2384185791015625E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.46  0.5000000000000000E+00 &
+                               0.5242880000000000E+06  \\
+? 
+! Misplaced alignment tab character &.
+l.47  x*x &
+            22 & -0.1192092895507812E-06 & 0.1192092895507812E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.47  x*x & 22 &
+                 -0.1192092895507812E-06 & 0.1192092895507812E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.47  x*x & 22 & -0.1192092895507812E-06 &
+                                           0.1192092895507812E-06  \\
+? 
+! Misplaced alignment tab character &.
+l.48  0.5000000000000000E+00 &
+                               0.1048576000000000E+07  \\
+? 
+! Misplaced alignment tab character &.
+l.49  x*x &
+            23 & -0.5960464477539062E-07 & 0.5960464477539062E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.49  x*x & 23 &
+                 -0.5960464477539062E-07 & 0.5960464477539062E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.49  x*x & 23 & -0.5960464477539062E-07 &
+                                           0.5960464477539062E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.50  0.5000000000000000E+00 &
+                               0.2097152000000000E+07  \\
+? 
+! Misplaced alignment tab character &.
+l.51  x*x &
+            24 & -0.2980232238769531E-07 & 0.2980232238769531E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.51  x*x & 24 &
+                 -0.2980232238769531E-07 & 0.2980232238769531E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.51  x*x & 24 & -0.2980232238769531E-07 &
+                                           0.2980232238769531E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.52  0.5000000000000000E+00 &
+                               0.4194304000000000E+07  \\
+? 
+! Misplaced alignment tab character &.
+l.53  x*x &
+            25 & -0.1490116119384766E-07 & 0.1490116119384766E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.53  x*x & 25 &
+                 -0.1490116119384766E-07 & 0.1490116119384766E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.53  x*x & 25 & -0.1490116119384766E-07 &
+                                           0.1490116119384766E-07  \\
+? 
+! Misplaced alignment tab character &.
+l.54  0.5000000000000000E+00 &
+                               0.8388608000000000E+07  \\
+? 
+! Misplaced alignment tab character &.
+l.55  x*x &
+            26 & -0.7450580596923828E-08 & 0.7450580596923828E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.55  x*x & 26 &
+                 -0.7450580596923828E-08 & 0.7450580596923828E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.55  x*x & 26 & -0.7450580596923828E-08 &
+                                           0.7450580596923828E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.56  0.5000000000000000E+00 &
+                               0.1677721600000000E+08  \\
+? 
+! Misplaced alignment tab character &.
+l.57  x*x &
+            27 & -0.3725290298461914E-08 & 0.3725290298461914E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.57  x*x & 27 &
+                 -0.3725290298461914E-08 & 0.3725290298461914E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.57  x*x & 27 & -0.3725290298461914E-08 &
+                                           0.3725290298461914E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.58  0.5000000000000000E+00 &
+                               0.3355443200000000E+08  \\
+? 
+! Misplaced alignment tab character &.
+l.59  x*x &
+            28 & -0.1862645149230957E-08 & 0.1862645149230957E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.59  x*x & 28 &
+                 -0.1862645149230957E-08 & 0.1862645149230957E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.59  x*x & 28 & -0.1862645149230957E-08 &
+                                           0.1862645149230957E-08  \\
+? 
+! Misplaced alignment tab character &.
+l.60  0.5000000000000000E+00 &
+                               0.6710886400000000E+08  \\
+? 
+! Misplaced alignment tab character &.
+l.61  x*x &
+            29 & -0.9313225746154785E-09 & 0.9313225746154785E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.61  x*x & 29 &
+                 -0.9313225746154785E-09 & 0.9313225746154785E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.61  x*x & 29 & -0.9313225746154785E-09 &
+                                           0.9313225746154785E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.62  0.5000000000000000E+00 &
+                               0.1342177280000000E+09  \\
+? 
+! Misplaced alignment tab character &.
+l.63  x*x &
+            30 & -0.4656612873077393E-09 & 0.4656612873077393E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.63  x*x & 30 &
+                 -0.4656612873077393E-09 & 0.4656612873077393E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.63  x*x & 30 & -0.4656612873077393E-09 &
+                                           0.4656612873077393E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.64  0.5000000000000000E+00 &
+                               0.2684354560000000E+09  \\
+? 
+! Misplaced alignment tab character &.
+l.65  x*x &
+            31 & -0.2328306436538696E-09 & 0.2328306436538696E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.65  x*x & 31 &
+                 -0.2328306436538696E-09 & 0.2328306436538696E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.65  x*x & 31 & -0.2328306436538696E-09 &
+                                           0.2328306436538696E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.66  0.5000000000000000E+00 &
+                               0.5368709120000000E+09  \\
+? 
+! Misplaced alignment tab character &.
+l.67  x*x &
+            32 & -0.1164153218269348E-09 & 0.1164153218269348E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.67  x*x & 32 &
+                 -0.1164153218269348E-09 & 0.1164153218269348E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.67  x*x & 32 & -0.1164153218269348E-09 &
+                                           0.1164153218269348E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.68  0.5000000000000000E+00 &
+                               0.1073741824000000E+10  \\
+? 
+! Misplaced alignment tab character &.
+l.69  x*x &
+            33 & -0.5820766091346741E-10 & 0.5820766091346741E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.69  x*x & 33 &
+                 -0.5820766091346741E-10 & 0.5820766091346741E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.69  x*x & 33 & -0.5820766091346741E-10 &
+                                           0.5820766091346741E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.70  0.5000000000000000E+00 &
+                               0.2147483648000000E+10  \\
+? 
+! Misplaced alignment tab character &.
+l.71  x*x &
+            34 & -0.2910383045673370E-10 & 0.2910383045673370E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.71  x*x & 34 &
+                 -0.2910383045673370E-10 & 0.2910383045673370E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.71  x*x & 34 & -0.2910383045673370E-10 &
+                                           0.2910383045673370E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.72  0.5000000000000000E+00 &
+                               0.4294967296000000E+10  \\
+? 
+[4]
+! Misplaced alignment tab character &.
+l.73  x*x &
+            35 & -0.1455191522836685E-10 & 0.1455191522836685E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.73  x*x & 35 &
+                 -0.1455191522836685E-10 & 0.1455191522836685E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.73  x*x & 35 & -0.1455191522836685E-10 &
+                                           0.1455191522836685E-10  \\
+? 
+! Misplaced alignment tab character &.
+l.74  0.5000000000000000E+00 &
+                               0.8589934592000000E+10  \\
+? 
+! Misplaced alignment tab character &.
+l.75  x*x &
+            36 & -0.7275957614183426E-11 & 0.7275957614183426E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.75  x*x & 36 &
+                 -0.7275957614183426E-11 & 0.7275957614183426E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.75  x*x & 36 & -0.7275957614183426E-11 &
+                                           0.7275957614183426E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.76  0.5000000000000000E+00 &
+                               0.1717986918400000E+11  \\
+? 
+! Misplaced alignment tab character &.
+l.77  x*x &
+            37 & -0.3637978807091713E-11 & 0.3637978807091713E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.77  x*x & 37 &
+                 -0.3637978807091713E-11 & 0.3637978807091713E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.77  x*x & 37 & -0.3637978807091713E-11 &
+                                           0.3637978807091713E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.78  0.5000000000000000E+00 &
+                               0.3435973836800000E+11  \\
+? 
+! Misplaced alignment tab character &.
+l.79  x*x &
+            38 & -0.1818989403545856E-11 & 0.1818989403545856E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.79  x*x & 38 &
+                 -0.1818989403545856E-11 & 0.1818989403545856E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.79  x*x & 38 & -0.1818989403545856E-11 &
+                                           0.1818989403545856E-11  \\
+? 
+! Misplaced alignment tab character &.
+l.80  0.5000000000000000E+00 &
+                               0.6871947673600000E+11  \\
+? 
+! Misplaced alignment tab character &.
+l.81  x*x &
+            39 & -0.9094947017729282E-12 & 0.9094947017729282E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.81  x*x & 39 &
+                 -0.9094947017729282E-12 & 0.9094947017729282E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.81  x*x & 39 & -0.9094947017729282E-12 &
+                                           0.9094947017729282E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.82  0.5000000000000000E+00 &
+                               0.1374389534720000E+12  \\
+? 
+! Misplaced alignment tab character &.
+l.83  x*x &
+            40 & -0.4547473508864641E-12 & 0.4547473508864641E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.83  x*x & 40 &
+                 -0.4547473508864641E-12 & 0.4547473508864641E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.83  x*x & 40 & -0.4547473508864641E-12 &
+                                           0.4547473508864641E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.84  0.5000000000000000E+00 &
+                               0.2748779069440000E+12  \\
+? 
+! Misplaced alignment tab character &.
+l.85  x*x &
+            41 & -0.2273736754432321E-12 & 0.2273736754432321E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.85  x*x & 41 &
+                 -0.2273736754432321E-12 & 0.2273736754432321E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.85  x*x & 41 & -0.2273736754432321E-12 &
+                                           0.2273736754432321E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.86  0.5000000000000000E+00 &
+                               0.5497558138880000E+12  \\
+? 
+! Misplaced alignment tab character &.
+l.87  x*x &
+            42 & -0.1136868377216160E-12 & 0.1136868377216160E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.87  x*x & 42 &
+                 -0.1136868377216160E-12 & 0.1136868377216160E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.87  x*x & 42 & -0.1136868377216160E-12 &
+                                           0.1136868377216160E-12  \\
+? 
+! Misplaced alignment tab character &.
+l.88  0.5000000000000000E+00 &
+                               0.1099511627776000E+13  \\
+? 
+! Misplaced alignment tab character &.
+l.89  x*x &
+            43 & -0.5684341886080801E-13 & 0.5684341886080801E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.89  x*x & 43 &
+                 -0.5684341886080801E-13 & 0.5684341886080801E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.89  x*x & 43 & -0.5684341886080801E-13 &
+                                           0.5684341886080801E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.90  0.5000000000000000E+00 &
+                               0.2199023255552000E+13  \\
+? 
+! Misplaced alignment tab character &.
+l.91  x*x &
+            44 & -0.2842170943040401E-13 & 0.2842170943040401E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.91  x*x & 44 &
+                 -0.2842170943040401E-13 & 0.2842170943040401E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.91  x*x & 44 & -0.2842170943040401E-13 &
+                                           0.2842170943040401E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.92  0.5000000000000000E+00 &
+                               0.4398046511104000E+13  \\
+? 
+! Misplaced alignment tab character &.
+l.93  x*x &
+            45 & -0.1421085471520200E-13 & 0.1421085471520200E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.93  x*x & 45 &
+                 -0.1421085471520200E-13 & 0.1421085471520200E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.93  x*x & 45 & -0.1421085471520200E-13 &
+                                           0.1421085471520200E-13  \\
+? 
+! Misplaced alignment tab character &.
+l.94  0.5000000000000000E+00 &
+                               0.8796093022208000E+13  \\
+? 
+! Misplaced alignment tab character &.
+l.95  x*x &
+            46 & -0.7105427357601002E-14 & 0.7105427357601002E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.95  x*x & 46 &
+                 -0.7105427357601002E-14 & 0.7105427357601002E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.95  x*x & 46 & -0.7105427357601002E-14 &
+                                           0.7105427357601002E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.96  0.5000000000000000E+00 &
+                               0.1759218604441600E+14  \\
+? 
+! Misplaced alignment tab character &.
+l.97  x*x &
+            47 & -0.3552713678800501E-14 & 0.3552713678800501E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.97  x*x & 47 &
+                 -0.3552713678800501E-14 & 0.3552713678800501E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.97  x*x & 47 & -0.3552713678800501E-14 &
+                                           0.3552713678800501E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.98  0.5000000000000000E+00 &
+                               0.3518437208883200E+14  \\
+? 
+! Misplaced alignment tab character &.
+l.99  x*x &
+            48 & -0.1776356839400250E-14 & 0.1776356839400250E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.99  x*x & 48 &
+                 -0.1776356839400250E-14 & 0.1776356839400250E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.99  x*x & 48 & -0.1776356839400250E-14 &
+                                           0.1776356839400250E-14  \\
+? 
+! Misplaced alignment tab character &.
+l.100  0.5000000000000000E+00 &
+                                0.7036874417766400E+14  \\
+? 
+! Misplaced alignment tab character &.
+l.101  x*x &
+             49 & -0.8881784197001252E-15 & 0.8881784197001252E-15  \\
+? 
+! Misplaced alignment tab character &.
+l.101  x*x & 49 &
+                  -0.8881784197001252E-15 & 0.8881784197001252E-15  \\
+? 
+! Misplaced alignment tab character &.
+l.101  x*x & 49 & -0.8881784197001252E-15 &
+                                            0.8881784197001252E-15  \\
+? 
+! Misplaced alignment tab character &.
+l.102  0.5000000000000000E+00 &
+                                0.1407374883553280E+15  \\
+? 
+! Misplaced alignment tab character &.
+l.103  sin(x)+cos(x*x) &
+                         01 & -0.9351046647281536E+00 & -0.4351046647281536E...
+
+? 
+! Misplaced alignment tab character &.
+l.103  sin(x)+cos(x*x) & 01 &
+                              -0.9351046647281536E+00 & -0.4351046647281536E...
+
+? 
+! Misplaced alignment tab character &.
+l.103 ...cos(x*x) & 01 & -0.9351046647281536E+00 &
+                                                   -0.4351046647281536E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.104  0.1000000000000000E+01 &
+                                0.1000000000000000E+01  \\
+? 
+! Misplaced alignment tab character &.
+l.105  sin(x)+cos(x*x) &
+                         02 & -0.8546415960180649E+00 & 0.8046306871008869E-...
+
+? 
+! Misplaced alignment tab character &.
+l.105  sin(x)+cos(x*x) & 02 &
+                              -0.8546415960180649E+00 & 0.8046306871008869E-...
+
+? 
+! Misplaced alignment tab character &.
+l.105 ...cos(x*x) & 02 & -0.8546415960180649E+00 &
+                                                   0.8046306871008869E-01  \\
+? 
+! Misplaced alignment tab character &.
+l.106  0.4351046647281536E+00 &
+                                0.4351046647281536E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.107  sin(x)+cos(x*x) &
+                         03 & -0.8493901358009870E+00 & 0.5251460217077924E-...
+
+? 
+! Misplaced alignment tab character &.
+l.107  sin(x)+cos(x*x) & 03 &
+                              -0.8493901358009870E+00 & 0.5251460217077924E-...
+
+? 
+! Misplaced alignment tab character &.
+l.107 ...cos(x*x) & 03 & -0.8493901358009870E+00 &
+                                                   0.5251460217077924E-02  \\
+? 
+! Misplaced alignment tab character &.
+l.108  0.1849280764672121E+00 &
+                                0.4250197514723320E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.109  sin(x)+cos(x*x) &
+                         04 & -0.8493688627401134E+00 & 0.2127306087358230E-...
+
+? 
+! Misplaced alignment tab character &.
+l.109  sin(x)+cos(x*x) & 04 &
+                              -0.8493688627401134E+00 & 0.2127306087358230E-...
+
+? 
+! Misplaced alignment tab character &.
+l.109 ...cos(x*x) & 04 & -0.8493688627401134E+00 &
+                                                   0.2127306087358230E-04  \\
+? 
+! Misplaced alignment tab character &.
+l.110  0.6526547273506428E-01 &
+                                0.8111233362254442E+00  \\
+? 
+[5]
+! Misplaced alignment tab character &.
+l.111  sin(x)+cos(x*x) &
+                         05 & -0.8493688623926731E+00 & 0.3474402480610000E-...
+
+? 
+! Misplaced alignment tab character &.
+l.111  sin(x)+cos(x*x) & 05 &
+                              -0.8493688623926731E+00 & 0.3474402480610000E-...
+
+? 
+! Misplaced alignment tab character &.
+l.111 ...cos(x*x) & 05 & -0.8493688623926731E+00 &
+                                                   0.3474402480610000E-09  \\
+? 
+! Misplaced alignment tab character &.
+l.112  0.4050884895680481E-02 &
+                                0.7713825732711236E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.113  sin(x)+cos(x*x) &
+                         06 & -0.8493688623926731E+00 & -0.0000000000000000E...
+
+? 
+! Misplaced alignment tab character &.
+l.113  sin(x)+cos(x*x) & 06 &
+                              -0.8493688623926731E+00 & -0.0000000000000000E...
+
+? 
+! Misplaced alignment tab character &.
+l.113 ...cos(x*x) & 06 & -0.8493688623926731E+00 &
+                                                   -0.0000000000000000E+00  \\
+? 
+! Misplaced alignment tab character &.
+l.114  0.1633240749027686E-04 &
+                                0.7677507053309917E+00  \\
+? 
+)
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.78  \hline
+            
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.79 \hline
+           
+? 
+! Misplaced \crcr.
+\endlongtable ->\crcr 
+                      \noalign {\let \LT@entry \LT@entry@chop \xdef \LT@save...
+l.81 \end{longtable}
+                    
+? 
+! Misplaced \noalign.
+\endlongtable ->\crcr \noalign 
+                               {\let \LT@entry \LT@entry@chop \xdef \LT@save...
+l.81 \end{longtable}
+                    
+? 
+! Undefined control sequence.
+\endlongtable ...\xdef \LT@save@row {\LT@save@row 
+                                                  }}\LT@echunk \LT@start \un...
+l.81 \end{longtable}
+                    
+? 
+! Misplaced \crcr.
+\LT@echunk ->\crcr 
+                   \LT@save@row \cr \egroup \global \setbox \@ne \lastbox \u...
+l.81 \end{longtable}
+                    
+? 
+! Misplaced \cr.
+\LT@echunk ->\crcr \LT@save@row \cr 
+                                    \egroup \global \setbox \@ne \lastbox \u...
+l.81 \end{longtable}
+                    
+? 
+! Extra }, or forgotten \endgroup.
+\LT@echunk ->\crcr \LT@save@row \cr \egroup 
+                                            \global \setbox \@ne \lastbox \u...
+l.81 \end{longtable}
+                    
+? 
+! You can't use `\lastbox' in vertical mode.
+<recently read> \lastbox 
+                         
+l.81 \end{longtable}
+                    
+? 
+! Extra }, or forgotten \endgroup.
+\LT@echunk ...etbox \@ne \lastbox \unskip \egroup 
+                                                  
+l.81 \end{longtable}
+                    
+? 
+[6] (./HW2_auto.aux) ) 
+Here is how much of TeX's memory you used:
+ 2861 strings out of 492995
+ 36273 string characters out of 6132704
+ 98650 words of memory out of 5000000
+ 6363 multiletter control sequences out of 15000+600000
+ 12704 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 39i,6n,26p,257b,192s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb>
+Output written on HW2_auto.pdf (6 pages, 110329 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

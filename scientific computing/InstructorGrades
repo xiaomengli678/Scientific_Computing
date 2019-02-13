@@ -1,0 +1,67 @@
+HW1, Sep 13, 2017
+Grade: 50/50
+Comments: Excellent!
+-------------------------
+HW2, Sep 27, 2017 
+Grade:  90/100
+Comments: 
+1.	You did not update your top-level README file to include info about HW2.
+2.	Your tables are not appropriate. It is better to have three separate tables, one for each function. Also each tables is better to have 4 columns: x, dx, linear ration, and quadratic ratio.
+3.	Your discussion on convergence is not adequate. 
+4.	The sections of your report are not appropriate. You need to start your report with an introduction to the problem. For instance you can briefly describe what the problem is and which method you use to solve it. In this case, we have the root-finding problem and we consider three functions and use Newton’s method to find their roots. Your report must be a coherent report. You should not organize it according to the steps in hw webpage. A report must start with an introduction and continue with methods/approaches and results and discussions. I suggest that you bring a printed copy of your report to my office hours so that we discuss this further.
+----------------------------
+HW3, Oct 23, 2017
+Grade: 120/150
+Comments:
+1. Your report has improved quite a lot. However, you still need to improve it. Again, it is not appropriate to name your sections by question 1, question 2, figure 1, figure 2, etc. 
+As I suggested earlier (and you did not follow), I strongly recommend that you come to my office hours so that I can give you suggestions on how to write a good report. 
+This is an important issue, especially since you are a graduate student.
+2. Use correct mathematical characters. For instance, do not write pi, instead type $\pi$ and $\pi^2$ in latex so that the correct greek character appears in your report.
+3. It is wrong and quite strange that you cannot get any error smaller than 10^(-8). Are you using single precision?? 
+4. Your explanation about the convergence of trapezoidal rule for f1 and f2 is wrong!
+5. You are not talking about the rate of convergence for both methods.
+-------------------------------
+HW4, Nov 22, 2017
+Grade: 135/150
+Comments:
+1. You report has improved a lot. I am happy with this report. Keep up the good work!
+2. Your results are wrong. You will need to fix your code for HW6. 
+3. You forgot to put a low-level README file in your HW4 directory.
+-------------------------------
+HW5, Dec. 16, 2017 (joint with Sadowski)
+Grade: 140/150
+Comments:
+1. Your directory is not organized! It is very hard to find movies and reports.
+2. Your equations are not correct. One can clearly see from your three movies that either you are not solving the correct equations OR you are not solving the equations correctly.
+--------------------------------
+HW6, Dec. 17, 2017 (joint with Sadowski)
+Grade: 140/150
+Comments:
+1. Please do not pass me between your accounts. Keep posting your joint HW in the same repository. Place your final project here, not in any other repo.
+2. Your HW6 directory needs to be more organized. It is very hard to navigate.
+3. DO NOT SEND ME A WORD DOC REPORT!!!! For the final project send me a PDF file. 
+4. The quality of your figures is very low. I could barely read the axes. 
+5. Figures 5, 6, 7 seem to be incorrect. The speedup and efficiency should not look like this.
+---------------------------------
+Final Project, Dec. 17, 2017 (joint with Sadowski)
+Grade: 180/200
+Comments:
+1. Your MPI code does not work correctly.
+2. Your speedup and efficiency plots do not look correct.
+3. Your report is not in a good shape.
+---------------------------------
+
+You total grades are: 
+
+Li:       855 + 50 (50 for your in-class attendance and participation) = 905 (out of 1000)
+Sadowski: 889 + 50 (50 for your in-class attendance and participation) = 939 (out of 1000)
+
+Your letter grade is A (both of you)
+
+Good luck!
+The instructor of Math/CS 471
+M. Motamed
+
+
+
+
