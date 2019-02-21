@@ -1,2 +1,2 @@
 # Scientific_Computing
-This is my parallel computing project (OPENMAP, MAPI)
+This is my parallel computing project (OPENMP, MPI)
